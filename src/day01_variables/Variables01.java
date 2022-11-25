@@ -6,9 +6,9 @@ public class Variables01 {
 
         //variable nasil olusturulur
         //1)access modifier  2)Data type 3)Variable ismi 4)= 5)Deger 6);
-        public int age = 13;
+        int age = 13;
 
-        public int height = 172;
+        int height = 172;
 
         //"=" assignment operator dur sagdaki degeri alip soldaki variable in icine atar
 
