@@ -1,3 +1,5 @@
+package day03dataCastingWrapperClass;
+
 import java.util.Scanner;
 
 public class Scanner02 {
