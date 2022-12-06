@@ -18,6 +18,9 @@ public class Scanner01 {
         String tc= scan.next();
 
         System.out.println(isim+" "+soyisim+"\n"+tc);
+  //next vs nextline ==> next kullanicidan gelen stringin sadece ilk bosluga kadar olan kismini alir nextline hepsini alir
+
+
 
     }
 }
