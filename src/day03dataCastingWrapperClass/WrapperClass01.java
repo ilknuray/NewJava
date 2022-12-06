@@ -36,5 +36,16 @@ public class WrapperClass01 {
         System.out.println("maxValue = " + maxValue);
         System.out.println("minValue = " + minValue);
 
+        //primitive ler nasil Wrapper classa cevrilir
+        float f1=13.99F;
+
+        Float wrapperF1=f1;
+
+        //wrapperlar nasil primitive olur
+        Character w1='s';
+        char primitiveW1=w1;
+
+        //note=Autoboxing ve unboxing Java tarafindan otomatik olarak yapilir
+
     }
 }
