@@ -26,6 +26,12 @@ public class NestedIf01 {
          }else {
              System.out.println("Gecerli bir password giriniz");
          }
+
+         //2.YOL
+        char ilkHarf=pass.charAt(0);
+
     }
-    // equals charlar icin kullanilir
+    // equals charlar icin kullanilmaz sadece String icin gecerlidir
+    //nested if kabul edilmez mumkunse kullanmamaliyiz cunku cok fazla zaman harcanir buna "TIME COMPLEXITY3 DENIR MUMKUNSE KULLANMAMALIYIZ
+
 }
