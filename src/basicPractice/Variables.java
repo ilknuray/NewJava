@@ -17,6 +17,6 @@ public class Variables {
         String soyIsim="Yilmaz";
 
         System.out.println(isim+" "+soyIsim);
-
+//initializing ilk degeri atama demektir
     }
 }
