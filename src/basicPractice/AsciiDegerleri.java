@@ -22,5 +22,7 @@ public class AsciiDegerleri {
         int karakter='&';
         System.out.println("karakter = " + karakter);
 
+        //& operatoru && operatorune gore daha yavas calisir cunku soft assert gibidir && ise hardassert gibidir
+
     }
 }
