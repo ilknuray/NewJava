@@ -35,5 +35,15 @@ public class Arrays01 {
 
         System.out.println(ilk+son);
 
+        //EX:Sayilar arrayinin icindeki tum elemanlarin toplamini ekrana yazdiran kodu yazdirin
+        int sum=0;
+        for (int w:sayilar) {
+            sum+=w;
+
+        }
+
+        System.out.println("sum :"+sum);
+        System.out.println(Arrays.stream(sayilar).sum());
+
     }
 }
