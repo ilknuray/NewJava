@@ -36,5 +36,27 @@ public class DoWhileLoop01 {
            }
         }
         while (true);
+
+        //infinite loop:Sonsuz dongu out of memory e sebep olabilir
+        //Artirma azaltma kisminda hata yaparsak infinite loop sorunsal i olur
+        //artirma azaltma kismini yazmazsak infinite loop sorunsal i olur
+
+        //While loop ta artirma azaltma kismini yazmassak infinite loop i olur
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
    }
