@@ -10,8 +10,8 @@ public class DoWhileLoop01 {
         Scanner sc = new Scanner(System.in);
         int sayi=0;
         do {
-            System.out.println("Lutfen bir sayi giriniz");
-             sayi = sc.nextInt();
+           System.out.println("Lutfen bir sayi giriniz");
+            sayi = sc.nextInt();
 
         if(sayi<100){
             System.out.println("Kazandiniz");
@@ -20,5 +20,21 @@ public class DoWhileLoop01 {
         while (sayi<100);
 
         System.out.println("Kaybettiniz");
+
+
+        //EX:Kullanicidan ismini aliniz ilk harfin buyuk harf olup olmadigini kontrol ediniz
+
+
+        do {
+            System.out.println("Lutfen isminizi giriniz");
+           char isim=sc.next().charAt(0);
+           if (isim>='A' && isim<='Z'){
+               System.out.println("basari ile girdiniz");
+           }else {
+               System.out.println("Isminizi terar giriniz");
+               break;
+           }
+        }
+        while (true);
 }
    }
