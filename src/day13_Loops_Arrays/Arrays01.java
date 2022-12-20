@@ -52,6 +52,12 @@ public class Arrays01 {
            top+=sayilar[i];
             i++;
         }
+        do {
+            top+=sayilar[i];
+            i++;
+
+        }while (i<sayilar.length);
+        System.out.println("top = " + top);
 
     }
 }
