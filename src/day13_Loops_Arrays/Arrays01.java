@@ -45,5 +45,13 @@ public class Arrays01 {
         System.out.println("sum :"+sum);
         System.out.println(Arrays.stream(sayilar).sum());
 
+        int i=0;
+        int top=0;
+
+        while (i<sayilar.length){
+           top+=sayilar[i];
+            i++;
+        }
+
     }
 }
