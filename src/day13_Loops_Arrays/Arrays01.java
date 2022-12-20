@@ -1,6 +1,7 @@
 package day13_Loops_Arrays;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Arrays01 {
     public static void main(String[] args) {
@@ -26,6 +27,13 @@ public class Arrays01 {
         //Arraydaki herhangi bir elemani nasil yazdiririm
         System.out.println(sayilar[3]);
         //Arraydeki en kucuk ve en buyuk elemani yazdiriniz
+
+        Arrays.sort(sayilar);//sort methodu array elemanlarini kucukten buyuge dizer
+        int ilk=sayilar[0];
+
+        int son=sayilar[sayilar.length-1];//lenght arraylerde parantezli kullanilmaz cunku method degildir burada
+
+        System.out.println(ilk+son);
 
     }
 }
