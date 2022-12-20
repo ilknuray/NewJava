@@ -10,14 +10,15 @@ public class DoWhileLoop01 {
         Scanner sc = new Scanner(System.in);
         int sayi=0;
         do {
-
-
             System.out.println("Lutfen bir sayi giriniz");
              sayi = sc.nextInt();
 
         if(sayi<100){
             System.out.println("Kazandiniz");
         }
-    }while (sayi>=100);
+    }
+        while (sayi<100);
+
         System.out.println("Kaybettiniz");
-}}
+}
+   }
