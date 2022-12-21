@@ -41,9 +41,9 @@ public class Arrays01 {
         String names[]=new String[ogrenciSayisi];
         for (int i = 1; i <=ogrenciSayisi ; i++) {
             System.out.println("Lutfen "+ i + " ogrenci ismini giriniz");
-            String stuNames= sc.next();
+            names[i-1]= sc.next();
 
-            names[i-1]=stuNames;
+
         }
         System.out.println(Arrays.toString(names));
 
