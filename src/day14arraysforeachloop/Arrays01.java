@@ -42,7 +42,11 @@ public class Arrays01 {
         for (int i = 1; i <=ogrenciSayisi ; i++) {
             System.out.println("Lutfen "+ i + " ogrenci ismini giriniz");
             names[i-1]= sc.next();
-
+            System.out.println("Girisi sonlandirmak icin Q harfine basiniz devam etmek icin herhangi bir tusa basiniz");
+            char exit=sc.next().charAt(0);
+            if (exit=='Q' ||exit=='q'){
+                break;
+            }
 
         }
         System.out.println(Arrays.toString(names));
