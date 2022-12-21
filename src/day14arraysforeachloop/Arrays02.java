@@ -1,6 +1,7 @@
 package day14arraysforeachloop;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class Arrays02 {
@@ -38,10 +39,22 @@ public class Arrays02 {
         }
         if (count > 0) {
             System.out.println(sayi + "arrayde " + count + "defa var");
+        } else {
+            System.out.println(sayi + "arrayde yok");
+
+
         }
+        //EX:Size verilen bir cumledeki en uzun kelimeyi yazan kodu yaziniz
+        //"Java ne kolaydir calisana,ne kolay ki zaten calismayana"
+
+        String cumle = "Java ne kolaydir calisana, ne kolay ki zaten calismayana";
+        cumle = cumle.replaceAll("\\p{Punct}", "");
+
+        String kelime[]=cumle.split(" ");
+        Arrays.sort(kelime, Comparator.comparingInt(String::length));//Lambda methodu ama cok iyi
+        System.out.println(Arrays.toString(kelime));
+        System.out.println(kelime[kelime.length - 1]);
 
 
     }
-
-
 }
