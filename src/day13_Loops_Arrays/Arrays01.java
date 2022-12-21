@@ -53,11 +53,28 @@ public class Arrays01 {
             i++;
         }
         do {
-            top+=sayilar[i];
+            //top+=sayilar[i];
             i++;
 
         }while (i<sayilar.length);
         System.out.println("top = " + top);
+
+        //for each loop Array ve Collectionlarda kullanilir
+        //once data tipi yazilir daha sonra variable ismi daha sonra da arrayin ismi yazilir
+
+         //EX:String bir array olusturunuz bu arraye 5 isim yerlestiriniz bu isimlerdeki karakter sayilarinin toplamini ekrana yazdiriniz
+        String names[]=new String[5];
+        names[0]="Ali";
+        names[1]="Tom";
+        names[2]="Veli";
+        names[3]="Kemal";
+        names[4]="Cem";
+
+        int karakterTop=0;
+        for (String w:names) {
+            karakterTop+=w.length();
+        }
+        System.out.println("karakterTop = " + karakterTop);
 
     }
 }
