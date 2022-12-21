@@ -18,7 +18,7 @@ public class Arrays02 {
                 idx++;
             }
         }
-        System.out.println("arr = " + arr);
+        System.out.println("arr = " +Arrays.toString(arr2));
 
         }
 
