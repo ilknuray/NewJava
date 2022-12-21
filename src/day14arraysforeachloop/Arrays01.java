@@ -39,15 +39,17 @@ public class Arrays01 {
         System.out.println("Kac ogrenci ismi gireceksiniz");
         int ogrenciSayisi= sc.nextInt();
         String names[]=new String[ogrenciSayisi];
+        System.out.println("Girisi sonlandirmak icin Q harfine basiniz devam etmek icin herhangi bir tusa basiniz");
+
         for (int i = 1; i <=ogrenciSayisi ; i++) {
             System.out.println("Lutfen "+ i + " ogrenci ismini giriniz");
-            System.out.println("Girisi sonlandirmak icin Q harfine basiniz devam etmek icin herhangi bir tusa basiniz");
             String stdNmas= sc.next();
-            names[i-1]= stdNmas;
+
 
             if (stdNmas.equalsIgnoreCase("Q")){
                 break;
             }
+            names[i-1]= stdNmas;
 
         }
         System.out.println(Arrays.toString(names));
