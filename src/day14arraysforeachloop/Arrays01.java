@@ -1,6 +1,7 @@
 package day14arraysforeachloop;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Arrays01 {
     public static void main(String[] args) {
@@ -19,7 +20,7 @@ public class Arrays01 {
         for (String w : arr) {
             System.out.println("w = " + w);
             if (w.equals("Tom")) {
-                break;
+                break;//break loop u kirar
             }
 
         }
@@ -33,5 +34,22 @@ public class Arrays01 {
             System.out.println("w = " + w);
 
         }
+        //EX:kullanici ile beraber bir array olusturunuz.bir ogretmenin ogrencilerinin isimlerini applicationa yuklemesini sagalayan kodu yaziniz
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Kac ogrenci ismi gireceksiniz");
+        int ogrenciSayisi= sc.nextInt();
+        String names[]=new String[ogrenciSayisi];
+        for (int i = 1; i <=ogrenciSayisi ; i++) {
+            System.out.println("Lutfen "+ i + " ogrenci ismini giriniz");
+            String stuNames= sc.next();
+
+            names[i-1]=stuNames;
+        }
+        System.out.println(Arrays.toString(names));
+
+        }
+
+
+
     }
-}
+
