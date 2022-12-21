@@ -28,23 +28,20 @@ public class Arrays02 {
 
         int sayilar[] = {2, 1, 2, -3, 2};
         System.out.println("Lutfen bir sayi giriniz");
-        int sayi= sc.nextInt();
+        int sayi = sc.nextInt();
         int count = 0;
         for (int w : sayilar) {
-
-            //sayi = sc.nextInt();
             if (w == sayi) {
                 count++;
 
-            } }
-            if (count > 0) {
-                System.out.println(sayi + "arrayde " + count + "defa var");
             }
-
-
+        }
+        if (count > 0) {
+            System.out.println(sayi + "arrayde " + count + "defa var");
         }
 
 
+    }
 
 
 }
