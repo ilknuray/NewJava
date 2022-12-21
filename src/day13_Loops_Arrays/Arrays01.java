@@ -82,6 +82,10 @@ public class Arrays01 {
             if (w>='A'&&w<='Z'){
                 System.out.println("w = " + w);
             }
+
+            //bir arraye koydugumuz datalarin hepsi ayni data turunde olmalidir.for each loop is the best
+
+
         }
 
     }
