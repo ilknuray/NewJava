@@ -9,8 +9,8 @@ public class Arrays01 {
         int sayi=43;
         //bu methodu kullanmadan once sort() methodu kullanilmalidir.bu kullanilmazsa yanlis sonuc verebilir
         //aranilan element array icinde varsa o sayinin indexini dondurur
-        //aranilan element array icinde yoksa - verir ve olsaydi hangi sirada olur onu gosterir index e gore degil
-
+        //aranilan element array icinde yoksa -a seklinde bir deger dondurur ve olsaydi hangi sirada olur onu gosterir index e gore degil
+        //binary search methodu tekrarlayan elemanlar icin kullanilmaz
         Arrays.sort(arr);
         System.out.println(Arrays.binarySearch(arr, sayi));
 
