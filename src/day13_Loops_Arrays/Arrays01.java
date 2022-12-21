@@ -76,5 +76,13 @@ public class Arrays01 {
         }
         System.out.println("karakterTop = " + karakterTop);
 
+        //EX:char bir array olusturunuz.bu arraye 5 eleman ekleyiniz sonra bu arraydeki buyuk harflri ekrana yazdiriniz
+        char ch[]={'A','c','D','k','m'};
+        for (char w:ch) {
+            if (w>='A'&&w<='Z'){
+                System.out.println("w = " + w);
+            }
+        }
+
     }
 }
