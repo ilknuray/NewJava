@@ -11,6 +11,7 @@ public class IfStatements05 {
          */
         Scanner sc=new Scanner(System.in);
         System.out.println("Lutfen yasinizi giriniz");
+        int sy=0;
         int yas= sc.nextInt();
 
         int emeklilikYasi=65;
