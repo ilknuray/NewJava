@@ -12,7 +12,10 @@ public class Arrays01 {
         //aranilan element array icinde yoksa -a seklinde bir deger dondurur ve olsaydi hangi sirada olur onu gosterir index e gore degil
         //binary search methodu tekrarlayan elemanlar icin kullanilmaz
         Arrays.sort(arr);
+
+
         System.out.println(Arrays.binarySearch(arr, sayi));
+
 
 
     }
