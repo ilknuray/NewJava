@@ -23,6 +23,8 @@ public class IfStatements04 {
         }else
             System.out.println("gecerli bir gun ismi giriniz");
 
+        //
+
     }
     //Stringlerde == yerine equals() kullanilir cunku javada 2 tane memory var String de referans degerine bakildigi icin equals() kullanilir
 }
