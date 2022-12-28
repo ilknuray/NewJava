@@ -20,6 +20,7 @@ public class AsciiDegerleri {
         //char karakterleri int e atayabiliriz bu sekilde karakterlerin ascii degerlerini bulabilirz
 
         int karakter='&';
+        //
         System.out.println("karakter = " + karakter);
 
         //& operatoru && operatorune gore daha yavas calisir cunku soft assert gibidir && ise hardassert gibidir
