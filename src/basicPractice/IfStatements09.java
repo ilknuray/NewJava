@@ -13,6 +13,7 @@ public class IfStatements09 {
         int d = sc.nextInt();
 
         if (a == b && b == c && c == d) {
+
             System.out.println("bu bir karedir");
         } else System.out.println("Kare degildir");
     }
