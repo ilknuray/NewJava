@@ -25,6 +25,8 @@ public class NestedIf01 {
             System.out.println(sayi2*sayi1);
         } else if(sayi1*sayi2<0) {
             System.out.println("Farkli islemlerle islem yapilamaz");
+
+
         }else
             System.out.println("Lutfen gecerli bir rakam giriniz");
     }
