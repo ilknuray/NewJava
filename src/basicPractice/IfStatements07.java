@@ -12,6 +12,7 @@ public class IfStatements07 {
         int sayi2 = sc.nextInt();
 
         if (sayi2 > sayi1) {
+
             System.out.println(sayi2);
         }else
             System.out.println(sayi1);
