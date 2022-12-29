@@ -34,6 +34,7 @@ public class IfStatements08 {
         } else if (sayi % 5 == 0) {
             if (sayi%10 == 0) {
                 System.out.println("5e bolunen cift sayi");
+
             } else {
                 System.out.println("5e bolunen tek sayi");
             }
