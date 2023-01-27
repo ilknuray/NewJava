@@ -25,6 +25,19 @@ public class MultidimensionalArrays01 {
         System.out.println(Arrays.toString(arr[1]));//bu kisim array oldugu icin toString ilr yazdirilir.
         System.out.println(arr[1][1]);//ic kismi direk yazdirabilirim int oldugu ve array olmadigi icin
 
+//EX:string bir mds olusturunuz ve elemanlari ekleyiniz toplam eleman sayisini yazdiran kodu yaziniz
+        String str[][]=new String[2][2];
+        str[0][0]="ali";
+        str[0][1]="lutfen";
+        str[1][0]="ata";
+        str[1][1]="bak";
+        System.out.println(Arrays.deepToString(str));
+        int elemanSayisi=0;
+        for (String[] z:str) {
+            elemanSayisi+=z.length;
+
+        }
+        System.out.println("elemanSayisi = " + elemanSayisi);
 
     }
 }
