@@ -11,10 +11,14 @@ public class Arrays01 {
         //aranilan element array icinde varsa o sayinin indexini dondurur
         //aranilan element array icinde yoksa -a seklinde bir deger dondurur ve olsaydi hangi sirada olur onu gosterir index e gore degil
         //binary search methodu tekrarlayan elemanlar icin kullanilmaz
-        Arrays.sort(arr);
 
+        Arrays.sort(arr);//12,14;31,43
+        int idx1=Arrays.binarySearch(arr,sayi);
+        System.out.println("idx1 = " + idx1);
 
-        System.out.println(Arrays.binarySearch(arr, sayi));
+        int sayi2=58;
+        int idx2=Arrays.binarySearch(arr,sayi2);
+        System.out.println("idx2 = " + idx2);
 
 
 
