@@ -12,6 +12,7 @@ public class Arrays01 {
         //aranilan element array icinde yoksa -a seklinde bir deger dondurur ve olsaydi hangi sirada olur onu gosterir index e gore degil
         //binary search methodu tekrarlayan elemanlar icin kullanilmaz
         // eger yoksa index degeri degil direk sirayi veriyor varsa index e gore siralamayi veriyor.
+      //Note binary search methodu tekrarlayan elemanlar icin kullanilmaz.
 
 
         Arrays.sort(arr);//12,14;31,43
