@@ -51,9 +51,14 @@ public class ArrayList01 {
         //get() istedigim index teki elemani getirir
 
         //ArrayListin bos olup olmadigini nasil anlarim?
-        boolean bosMu=nums.isEmpty();
-        System.out.println("bosMu = " + bosMu);
+        boolean bosMu1=nums.isEmpty();
+        System.out.println("bosMu1 = " + bosMu1);
+        boolean bos2=ages.isEmpty();
+        System.out.println("bos2 = " + bos2);
 
+        //ArrayListte bir eleman nasil degistirilir?
+        int yeni=nums.set(2,90);
+        System.out.println("nums4 = " + nums);
 
 
 
