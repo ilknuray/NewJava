@@ -40,6 +40,20 @@ public class ArrayList01 {
         nums.addAll(2,prices);//istedigim index e istedigim listi ekler
         System.out.println("nums3 = " + nums);
 
+        //ArrayListlerin eleman sayisi nasil bulunur?
+        int elemanSayisi= nums.size();
+        System.out.println(elemanSayisi);
+        System.out.println(nums.size());
+
+        //ArrayListlerde herhangi bir eleman nasil secilir?
+        int istedigim=nums.get(3);
+        System.out.println("istedigim = " + istedigim);
+        //get() istedigim index teki elemani getirir
+
+        //ArrayListin bos olup olmadigini nasil anlarim?
+        boolean bosMu=nums.isEmpty();
+        System.out.println("bosMu = " + bosMu);
+
 
 
 
