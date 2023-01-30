@@ -72,6 +72,14 @@ public class ArrayList01 {
         nums.remove(sayi);//remove methodunun icine tam sayi koyarsak java index olarak kabul eder.ve onu silmeye calisir hata aliriz.
         System.out.println("nums6 = " + nums);
 
+        //NOTE:tum sayilar aksi soylenmedikce java icin primitivedir,yani int tir
+        //NOTE2:Primitive ler arraylistlerin elemani olamazlar
+        //NOTE3:Primitive i wrapper classa cevirirsek non primitive olurlar ve non primitive ler ArrayListlerin elemani olur index olmazlar
+        //birden fazla ayni sayi varsa ilkini siler.
+        //add eleman ekle,remove sil,set degistir,size boyutunu verir.
+
+
+
 
 
     }
