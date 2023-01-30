@@ -78,6 +78,9 @@ public class ArrayList01 {
         //birden fazla ayni sayi varsa ilkini siler.
         //add eleman ekle,remove sil,set degistir,size boyutunu verir.
 
+     //Arrayler yapisi basit oldugu icin daha hizli daha az yer kaplar
+
+
 
 
 
