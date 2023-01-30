@@ -60,7 +60,13 @@ public class ArrayList01 {
         int yeni=nums.set(2,90);
         System.out.println("nums4 = " + nums);
 
-
+        //EX:nums daki tum  tek sayilari 11 artirdiktan sonra ekrana yazdiriniz
+        for (int w:nums) {
+            if (w%2!=0){
+                nums.set(nums.indexOf(w),w+11);
+            }
+        }
+        System.out.println("nums5 = " + nums);
 
     }
 }
