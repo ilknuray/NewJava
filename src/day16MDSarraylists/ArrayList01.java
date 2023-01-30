@@ -67,6 +67,11 @@ public class ArrayList01 {
             }
         }
         System.out.println("nums5 = " + nums);
+        Integer sayi=90;
+        nums.remove(sayi);//remove methodunun icinne tam sayi koyarsak java index olarak kabul eder.
+        System.out.println("nums6 = " + nums);
+
+
 
     }
 }
