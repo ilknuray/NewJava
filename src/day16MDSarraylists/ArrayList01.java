@@ -32,6 +32,14 @@ public class ArrayList01 {
 
         nums.add(2,27);//verilen indexe verilen degeri ekler.eger ekleyemezse birsey return etmez
         //void birsey dondurmeyen demektir
+        List<Integer>prices=new ArrayList<>();
+        prices.add(33);
+        prices.add(185);
+        nums.addAll(prices);
+        System.out.println("nums2 = " + nums);
+        nums.addAll(2,prices);//istedigim index e istedigim listi ekler
+        System.out.println("nums3 = " + nums);
+
 
 
 
