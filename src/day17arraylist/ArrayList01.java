@@ -32,6 +32,27 @@ public class ArrayList01 {
                                                 // eder.Hpsi varsa true en az biri yoksa false doner.
         System.out.println("sonuc = " + sonuc);
 
+        List<String>a=new ArrayList<>();
+        a.add("Shoes");
+        a.add("TV");
+        a.add("Radio");
+        a.add("Laptop");
+        a.add("Shoes");
+        a.add("Book");
+        a.add("Shoes");
+        System.out.println("ailk = " + a);
+        ///EX1:a listinde shoes elemanin ilk gorunumunu siliniz
+
+        a.remove("Shoes");
+        System.out.println("a = " + a);
+
+        //tum shoeslari siliniz
+
+        List<String>silinecekler=new ArrayList<>();
+        silinecekler.add("Shoes");
+        a.removeAll(silinecekler);
+        System.out.println("a2 = " + a);
+
 
 
     }
