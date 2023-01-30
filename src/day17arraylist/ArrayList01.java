@@ -18,8 +18,21 @@ public class ArrayList01 {
         cities.add("Tokyo");
         cities.add("Tokat");
 
-        names.addAll(2,cities);
+        names.addAll(2,cities);//remove all yaptiginizda sadece ilk list degisir parantezin icindeki list degismez.
+                                    // removeall sadece list ile calisir icine parametre olarak list eklemaliyim
         System.out.println("names2 = " + names);
+
+        names.removeAll(cities);
+        System.out.println("names3 = " + names);
+        List<String>Mynames=new ArrayList<>();
+        Mynames.add("tom");
+        Mynames.add("Thomas");
+        Mynames.add("Tahsin");
+        boolean sonuc=names.containsAll(Mynames);//Bir lstin icinde coklu elemanlarin var olup olmadigini kontrol
+                                                // eder.Hpsi varsa true en az biri yoksa false doner.
+        System.out.println("sonuc = " + sonuc);
+
+
 
     }
 }
