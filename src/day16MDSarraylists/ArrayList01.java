@@ -67,8 +67,9 @@ public class ArrayList01 {
             }
         }
         System.out.println("nums5 = " + nums);
+        //ArrayListten 90 i siliniz
         Integer sayi=90;
-        nums.remove(sayi);//remove methodunun icinne tam sayi koyarsak java index olarak kabul eder.
+        nums.remove(sayi);//remove methodunun icine tam sayi koyarsak java index olarak kabul eder.ve onu silmeye calisir hata aliriz.
         System.out.println("nums6 = " + nums);
 
 
