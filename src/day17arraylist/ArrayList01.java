@@ -75,6 +75,9 @@ public class ArrayList01 {
         //Jaavada para varsa double kullanilir
 
         //EX4:iki arrayinesit olup olmadigini kontrol eden kodu yaziniz
+        //iki array listin esit olmasi icin elemanlar esit olmali ve ayni indexte bulunmali
+
+        //NOTE/o,ce size i kontrol et eger esit dgilse calismasin,
         List<Character> m = new ArrayList<>();
         m.add('x');
         m.add('y');
@@ -88,6 +91,11 @@ public class ArrayList01 {
         //1.Yol
         int counter=0;
         for (int i = 0; i < m.size(); i++) {
+            if (m.size()!=n.size()){
+                counter++;
+                System.out.println("Listler esit degildir");
+                break;
+            }
             if (m.get(i) != n.get(i)){
                 counter++;
                 System.out.println("Listler esit degildir");
@@ -96,6 +104,13 @@ public class ArrayList01 {
         }
         if(counter==0){
             System.out.println("Listler esittir");
+        }
+        //2.Yol
+        boolean esitMi=m.equals(n);
+        if (esitMi){
+            System.out.println("Listler esit");
+        }else {
+            System.out.println("Listler esit degildir");
         }
 
 
