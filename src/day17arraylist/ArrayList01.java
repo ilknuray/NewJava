@@ -53,8 +53,24 @@ public class ArrayList01 {
         a.removeAll(silinecekler);
         System.out.println("a2 = " + a);
 
-        //EX:3
+        //EX:3 bir maas listi olusturun salarie 10000 den az ise %20 10000 den az fazla ise %10 zam yapin
 
+        List<Double>maas=new ArrayList<>();
+       maas.add(12345.00);
+       maas.add(8674.50);
+       maas.add(15000.75);
+       maas.add(9500.00);
+       maas.add(20500.00);
+        System.out.println("maas = " + maas);
+        for (Double w:maas) {
+            if (w<10000){
+                maas.set(maas.indexOf(w),w*1.2);
+
+            }else {
+                maas.set(maas.indexOf(w),w*1.1 );
+            }
+        }
+        System.out.println("maas2 = " + maas);
 
 
     }
