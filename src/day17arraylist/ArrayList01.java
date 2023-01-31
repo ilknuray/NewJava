@@ -86,11 +86,16 @@ public class ArrayList01 {
         n.add('z');
 
         //1.Yol
+        int counter=0;
         for (int i = 0; i < m.size(); i++) {
             if (m.get(i) != n.get(i)){
+                counter++;
                 System.out.println("Listler esit degildir");
                 break;
             }
+        }
+        if(counter==0){
+            System.out.println("Listler esittir");
         }
 
 
