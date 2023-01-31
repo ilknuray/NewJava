@@ -53,6 +53,8 @@ public class ArrayList01 {
         a.removeAll(silinecekler);
         System.out.println("a2 = " + a);
 
+        //EX:3
+
 
 
     }
