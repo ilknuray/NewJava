@@ -25,6 +25,9 @@ public class ArrayList03 {
 
         }
         System.out.println("minFark = " + minFark);
+        //listlerde daha cok method vardir arraylerin gelistirilmis halidirancak daha cok yer
+        // kaplar arrayler daha hizlidir arraylere non primitive konmaz listlere ise primitive konulamaz reference konulamaz
+
 
 
     }
