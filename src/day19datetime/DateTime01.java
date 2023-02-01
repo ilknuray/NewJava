@@ -51,6 +51,12 @@ public class DateTime01 {
         System.out.println("dtAli = " + dtAli);
         System.out.println("dtTom = " + dtTom);
 
+        //EX8:Istanbulun fethi ile cumhuriyetin kurulmasi arasinda kac ay oldugunu gosteren kodu yaziniz
+        LocalDate istFethi=LocalDate.of(1453,5,29);
+        LocalDate cumhuriyet=LocalDate.of(1923,10,29);
+        Long ayFarki=ChronoUnit.MONTHS.between(istFethi,cumhuriyet);
+        System.out.println("ayFarki = " + ayFarki);
+
 
     }
 }
