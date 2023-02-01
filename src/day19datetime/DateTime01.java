@@ -27,5 +27,11 @@ public class DateTime01 {
 
         LocalDateTime currentDateTimeIstanbul=LocalDateTime.now(ZoneId.of("Europe/Istanbul"));
         System.out.println("currentDateTimeIstanbul = " + currentDateTimeIstanbul);
+
+        //EX5:Bugunden 789 gun sonra emekli olacginiza gore emeklilik tarihini hesaplayan kodu yaziniz
+        LocalDate emeklilikGunu=LocalDate.now();
+        LocalDate emeklilikNezaman=emeklilikGunu.plusDays(789);
+        System.out.println("emeklilikNezaman = " + emeklilikNezaman);
+
     }
 }
