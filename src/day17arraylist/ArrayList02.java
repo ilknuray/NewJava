@@ -50,5 +50,7 @@ public class ArrayList02 {
 
         } while (!girilenHarf.equals("Q"));
         System.out.println(harf);
+
+
     }
 }
