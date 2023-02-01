@@ -3,6 +3,7 @@ package day19datetime;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.ZoneId;
 
 public class DateTime01 {
     public static void main(String[] args) {
@@ -18,5 +19,13 @@ public class DateTime01 {
         //EX3:anlik tarihi ve anlik zamni ekrana yazdiran kodu yaziniz
         LocalDateTime currentDateTime=LocalDateTime.now();
         System.out.println("currentDateTime = " + currentDateTime);
+
+        //EX4:Japonyadaki anlik tarih ve zamani ekrana yazan kodu yaziniz
+
+        LocalDateTime currentDateTimeJapon=LocalDateTime.now(ZoneId.of("Asia/Tokyo"));
+        System.out.println("currentDateTimeJapon = " + currentDateTimeJapon);
+
+        LocalDateTime currentDateTimeIstanbul=LocalDateTime.now(ZoneId.of("Europe/Istanbul"));
+        System.out.println("currentDateTimeIstanbul = " + currentDateTimeIstanbul);
     }
 }
