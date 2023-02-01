@@ -41,6 +41,16 @@ public class DateTime01 {
         Long fark=ChronoUnit.DAYS.between(dtMelih,dtSenih);//gecmis tarih once yazilmalidir between tarihi kullanildiginda.
         System.out.println("fark = " + fark);
 
+        //EX7:Tom ali den 3 yil 8 ay 13 GUN SONRA DOGDU,ali ise veliden 1yil 15 gun once dogdu
+        // tom un dogum tarihi 18.11.2011 ise digrlrinin kini bulunuz
+
+        LocalDate dtTom=LocalDate.of(2011,11,18);
+        LocalDate dtAli=dtTom.plusYears(3).plusMonths(8).plusDays(13);
+        LocalDate dtVeli=dtAli.minusYears(1).minusDays(15);
+        System.out.println("dtVeli = " + dtVeli);
+        System.out.println("dtAli = " + dtAli);
+        System.out.println("dtTom = " + dtTom);
+
 
     }
 }
