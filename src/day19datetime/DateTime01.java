@@ -57,6 +57,15 @@ public class DateTime01 {
         Long ayFarki=ChronoUnit.MONTHS.between(istFethi,cumhuriyet);
         System.out.println("ayFarki = " + ayFarki);
 
+        //EX9:Verilen tarihin hangi aayda olduunu ve hangi burc oldugunu gosteren kodu yainiz
+
+        LocalDate myDate=LocalDate.of(1989,12,7);
+
+        int day= myDate.getDayOfMonth();
+        int mounth= myDate.getMonthValue();
+
+
+
 
     }
 }
