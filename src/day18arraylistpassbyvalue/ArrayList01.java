@@ -32,10 +32,11 @@ public class ArrayList01 {
         sayilar.add(9);
         System.out.println("sayilar = " + sayilar);
         for (Integer w : sayilar) {
-            if (w<=8){
-                continue;
+            sayilar.set(sayilar.indexOf(w), w * 2);
+            if (w == 8) {
+               break;
             }
-            sayilar.set(sayilar.indexOf(w),w*2);
+
 
         }
         System.out.println("sayilar sonraki hali= " + sayilar);
