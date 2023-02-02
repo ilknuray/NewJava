@@ -24,9 +24,7 @@ public class StringBuilder01 {
         String str="Java";
         str="Super Java";
         System.out.println("str = " + str);
-        StringBuilder strb=new StringBuilder("Java");
-        strb=new StringBuilder("Super Java");
-        System.out.println("strb = " + strb);
+
 
         /*
         String pool:
@@ -34,6 +32,13 @@ public class StringBuilder01 {
         String musteri="tom haks";
         String musteri2="tom hanks";
         String musteri3="Brad pitt";
+
+
+        //StringBuilder nasil olusturulur
+        //1.
+        StringBuilder strb=new StringBuilder("Java");
+        strb=new StringBuilder("Super Java");
+        System.out.println("strb = " + strb);
 
 
 
