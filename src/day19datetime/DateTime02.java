@@ -1,6 +1,7 @@
 package day19datetime;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 public class DateTime02 {
@@ -19,6 +20,14 @@ public class DateTime02 {
         DateTimeFormatter dtf3=DateTimeFormatter.ofPattern("MMMM/dd/yyyy");
         String formatedDate3=dtf3.format(currrentDate);
         System.out.println("formatedDate3 = " + formatedDate3);
+
+        //  Jvadan aldiginiz time in formatini degistiriniz
+        LocalTime myTime=LocalTime.of(16,23,54,2345);
+        System.out.println("myTime = " + myTime);
+
+
+
+
 
     }
 }
