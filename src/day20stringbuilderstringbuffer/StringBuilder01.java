@@ -63,6 +63,10 @@ public class StringBuilder01 {
         //once hemen 16 lik bir capact ayirir asimlarda se var olan kapasiteenin iki katinin iki fazlasini  verir
 
         strb3.setCharAt(3,'T');
+        System.out.println(strb3);//DELETE CHARAT ilk index dahil ikinci index dail olmamakla birlikte aradaki karakterleri siler
+
+
+        strb3.delete(3,6);
         System.out.println(strb3);
 
 
