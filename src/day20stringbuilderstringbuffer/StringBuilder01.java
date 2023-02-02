@@ -80,7 +80,8 @@ public class StringBuilder01 {
         abc=abc.replaceAll("a","i");
         System.out.println(abc);
 
-        strb3.toString();//StringBuilderlari stringe cevirir
+        String stringStrb3=strb3.toString();//StringBuilderlari stringe cevirir
+        System.out.println(stringStrb3);
 
 
 
