@@ -24,7 +24,9 @@ public class DateTime02 {
         //  Jvadan aldiginiz time in formatini degistiriniz
         LocalTime myTime=LocalTime.of(16,23,54,2345);
         System.out.println("myTime = " + myTime);
-
+        DateTimeFormatter dtf4=DateTimeFormatter.ofPattern("HH:mm");//buyuk H 24 saat sistemini,kucuk h 12 saat sistemini verir.
+        String formatedMyTime=dtf4.format(myTime);
+        System.out.println("formatedMyTime = " + formatedMyTime);
 
 
 
