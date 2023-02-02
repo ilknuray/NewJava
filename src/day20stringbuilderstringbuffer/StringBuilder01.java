@@ -40,6 +40,12 @@ public class StringBuilder01 {
         strb=new StringBuilder("Super Java");
         System.out.println("strb = " + strb);
 
+        //2.
+        StringBuilder strb2=new StringBuilder();
+        strb2.append("Java");
+        System.out.println("strb2 = " + strb2);
+
+
 
 
     }
