@@ -2,6 +2,7 @@ package day19datetime;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.Month;
 import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
 
@@ -12,5 +13,9 @@ public class DateTime03 {
         LocalDateTime japonya = LocalDateTime.now(ZoneId.of("Asia/Tokyo"));
         Long fark = ChronoUnit.HOURS.between(almanya, japonya);
         System.out.println("fark = " + fark);
+
+        //EX2:sabit bir tarih olusturunuz
+        LocalDate trh=LocalDate.of(2011, Month.DECEMBER,21);
+        System.out.println("trh = " + trh);
     }
 }
