@@ -69,6 +69,20 @@ public class StringBuilder01 {
         strb3.delete(3,6);
         System.out.println(strb3);
 
+        strb3.deleteCharAt(6);
+
+        strb3.reverse();//TESR CEVIRIR.
+        System.out.println(strb3);
+        //mutable laarda sadece method kullanmak orijinal degri degistirmek icin yeterlidir
+        //Ancak immutable larda sadece method kullanmak yaterli olmaz atama da yapmak gereklidir.
+        //EX:
+        String abc="Java";
+        abc=abc.replaceAll("a","i");
+        System.out.println(abc);
+
+        strb3.toString();//StringBuilderlari stringe cevirir
+
+
 
 
 
