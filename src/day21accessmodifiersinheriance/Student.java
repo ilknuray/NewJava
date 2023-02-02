@@ -11,7 +11,7 @@ public class Student {
     public String stdName="TomHanks";
     protected String adress="Miami";
     String email="tomhanks@gmail.com";//defult yazmayiz zaten otomatik olarak default degeri verir
-    private String stdId="20206517004";
+    private String stdId="20206517004";//Sadece ayni classta kullanilirlar
 
 
 
