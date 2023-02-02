@@ -28,7 +28,9 @@ public class DateTime02 {
         String formatedMyTime=dtf4.format(myTime);
         System.out.println("formatedMyTime = " + formatedMyTime);
 
-
+        DateTimeFormatter dtf5=DateTimeFormatter.ofPattern("hh:mm");//buyuk H 24 saat sistemini,kucuk h 12 saat sistemini verir.
+        String formatedMyTime2=dtf5.format(myTime);
+        System.out.println("formatedMyTime = " + formatedMyTime2);
 
 
     }
