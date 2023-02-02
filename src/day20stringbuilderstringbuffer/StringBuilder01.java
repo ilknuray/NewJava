@@ -43,7 +43,14 @@ public class StringBuilder01 {
         //2.
         StringBuilder strb2=new StringBuilder();
         strb2.append("Java");
+        strb2.append(" is easy");
+        strb2.append("!!!");
+        //String d string leri birbirine eklemek icin concat kullaniyorduk builder da ise appened methodunu kullaniyoruz.
         System.out.println("strb2 = " + strb2);
+        //ekleme2.yol
+        strb2.append("Learn").append(" java earn").append(" money");
+        System.out.println(strb2);
+
 
 
 
