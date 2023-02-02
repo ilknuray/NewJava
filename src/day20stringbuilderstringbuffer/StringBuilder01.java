@@ -92,6 +92,17 @@ public class StringBuilder01 {
         //Baska bir insert methodu istedigim karakterden aslamak sartiyla istedigim kelimenin istedigim araliktaki indexini araya yerlestirir
 
 
+        StringBuilder a=new StringBuilder("Java");
+        StringBuilder b=new StringBuilder("Java");
+        int sonuc=a.compareTo(b);
+        System.out.println("sonuc = " + sonuc);
+
+        //CompereTo ki stb yi birbiri ile kiyaslar.ikisi de ayni ise farki 0 verir.
+        //Alfabetik sirada aralarindaki farki verir.- yada + olarak oncelik durumlarina gore farki verir
+        //Kucuk harf ile buyuk arasindaki fark 32 dir or/J ile j aeasindaki fark 32 DIR
+
+
+
 
 
 
