@@ -81,7 +81,18 @@ public class StringBuilder01 {
         System.out.println(abc);
 
         String stringStrb3=strb3.toString();//StringBuilderlari stringe cevirir
-        System.out.println(stringStrb3);
+        System.out.println(stringStrb3);//datanin degisime kapatilmasi icin stringr geceriz yada srngb de
+        // olmayan methodlardan yaralanmak icin stringe donebiliriz
+
+        StringBuilder strb4=new StringBuilder(stringStrb3);//Stringden strb ye donduk
+        System.out.println("strb4 = " + strb4);
+
+        strb4.insert(3,"XXX");//verilen karajterden  sonra istenen degisimi ekler.
+        System.out.println(strb4);
+        //Baska bir insert methodu istedigim karakterden aslamak sartiyla istedigim kelimenin istedigim araliktaki indexini araya yerlestirir
+
+
+
 
 
 
