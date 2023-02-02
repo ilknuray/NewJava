@@ -51,6 +51,20 @@ public class StringBuilder01 {
         strb2.append("Learn").append(" java earn").append(" money");
         System.out.println(strb2);
 
+        //StringBuilderlarda karakter sayisi nasil bulunur?
+        StringBuilder strb3=new StringBuilder();
+        strb3.append("catcccccccc");
+
+        int numOfChar=strb3.length();
+        System.out.println(numOfChar);
+
+        int capacty=strb3.capacity();
+        System.out.println(capacty);
+        //once hemen 16 lik bir capact ayirir asimlarda se var olan kapasiteenin iki katinin iki fazlasini  verir
+
+        strb3.setCharAt(3,'T');
+        System.out.println(strb3);
+
 
 
 
