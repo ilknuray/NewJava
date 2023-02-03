@@ -15,5 +15,6 @@ public class Runner {
         System.out.println(animal.c);
         //ayni variableolsa bile inheritance da java objectin data tipine bakarak secer.
         // Oncelikkle istediginiz variable i Objectin data tipi olan classta arar
+        //Classin kendisinde ararna variable yoksa var olan paret classa gider ve oradakini kullanir.
     }
 }
