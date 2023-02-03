@@ -32,7 +32,13 @@ public class AnimalRunner {
         5)
         object class her classin parentidir
         Javada object class haric heer classin parenti vardir
+        6)
+        Private methodlar ve variable inherite edilemezler
+        7)Protected method ve variable lar  child classlar tarafindan inherite edilebilirler
+        default method ve variable lar child class disindan kullanilabilir ancak ayni package icinde olmali
+        public method ve variblelar child classlardan tarafindan inherite edilebilir
          */
+
 
 
     }
