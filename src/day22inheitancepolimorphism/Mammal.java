@@ -9,5 +9,9 @@ public class Mammal extends Animal{
     }
     public void drink(){
         System.out.println("Mammal drink...");
+
+    }
+    public Mammal(){
+
     }
 }
