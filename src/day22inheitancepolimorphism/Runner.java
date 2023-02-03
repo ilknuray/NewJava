@@ -21,12 +21,19 @@ public class Runner {
         Cat cat4=new Cat();
         cat4.eat();
         //inheritanc da methodlar secilirken java consructora bakar oncelikle istedigimiz methodu constructori kullanilan classtan alir
+        //O classta bulamazsa parent classa bakar hic bir yerde o methodu bulamzsa hata verir.
+
 
         Mammal cat5=new Mammal();
         cat5.eat();
 
         Animal cat6=new Animal();
         cat6.eat();
+
+        cat4.drink();
+        cat5.drink();
+        cat2.drink();
+        cat.drink();
 
     }
 }

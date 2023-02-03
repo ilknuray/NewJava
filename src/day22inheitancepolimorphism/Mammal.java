@@ -7,4 +7,7 @@ public class Mammal extends Animal{
     public void eat(){
         System.out.println("Mammal eat");
     }
+    public void drink(){
+        System.out.println("Mammal drink...");
+    }
 }
