@@ -28,8 +28,10 @@ public class HondaEccort extends Honda {
 
 
     public HondaEccort(int price, int year) {
+
         this.price=price;
         this.year=year;
+        System.out.println("Honda accart");
 
 
     }

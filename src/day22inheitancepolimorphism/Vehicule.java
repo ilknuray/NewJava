@@ -8,5 +8,6 @@ public class Vehicule {
 
     public  Vehicule(String type){
     this.type=type;
+        System.out.println("vehicule constructor");
     }
 }

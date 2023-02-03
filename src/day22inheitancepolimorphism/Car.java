@@ -8,8 +8,10 @@ public class Car extends Vehicule{
 
     }
     public Car(String color,int km){
+        super("Car");
         this.color=color;
         this.km=km;
+        System.out.println("car costructor");
 
     }
 }
