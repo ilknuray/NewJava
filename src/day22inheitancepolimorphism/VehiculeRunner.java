@@ -7,6 +7,11 @@ public class VehiculeRunner {
 
         Vehicule car1=new Vehicule();
         HondaEccort ha=new HondaEccort(250000,2020);
+        System.out.println(ha.price);
+        System.out.println(ha.make);
+        System.out.println(ha.model);
+        System.out.println(ha.km);
+        System.out.println(ha.year);
 
     }
 }

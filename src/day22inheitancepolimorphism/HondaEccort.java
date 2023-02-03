@@ -11,6 +11,13 @@ public class HondaEccort extends Honda {
         4)bir classta birden fazla constroctor olabilir ama parametreleri farkli olmalidir
         5)this() keyword bu class anlamindadir.this.price demek bu classtaki price isimli variable demektir
         this.price syntaxi sadece constructorlar icinde kullanilir
+
+        classtaki hersey object e gider,objecte hersey classtan gelir.
+        class objectin kalibidir.
+
+        **Costructor kullanarak variablellar uzerinde yaptiginiz degisimler sadece Object uzerindeki
+        variablelarin degerini degistirir.Classtaki variable degerlerini degistiremez
+
          */
     public int price;
     public int year;
