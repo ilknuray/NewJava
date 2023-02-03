@@ -9,7 +9,8 @@ public class HondaEccort extends Honda {
         2)Java nin otomatik olarak olusturdugu bu gorunmez constructor a "default cos denir
         3)kendimiz herhangi bir cons olusturdugumuzda java "default cons" u siler
         4)bir classta birden fazla constroctor olabilir ama parametreleri farkli olmalidir
-
+        5)this() keyword bu class anlamindadir.this.price demek bu classtaki price isimli variable demektir
+        this.price syntaxi sadece constructorlar icinde kullanilir
          */
     public int price;
     public int year;
