@@ -34,6 +34,12 @@ public class Runner {
         cat5.drink();
         cat2.drink();
         cat.drink();
+        ///Javada yaratilis yukaridan asagiya dogrudur parent olmadan child olmaz
+
+        //CONSTRUCTOR
+        /*
+        *Con
+         */
 
     }
 }
