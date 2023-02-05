@@ -7,5 +7,7 @@ public void liveSessions(){
 public Courses(){
     System.out.println("Constructor A");
 }
-
+public Courses(String s){
+    System.out.println("Constructor B");
+}
 }
