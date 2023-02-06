@@ -6,5 +6,6 @@ public class Animal {
 
     public void eat(){
         System.out.println("Animal eat...");
+        //Parent classta uygulamasini begenmedigimiz uygulamanin uygulamasini degistirmeye overriding denir
     }
 }
