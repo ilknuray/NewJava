@@ -15,6 +15,17 @@ public class CarRunner {
         System.out.println(car2.price);
 
         //her new keywordu bir object demektir
+        //static variablelara objectleri kullanarak ulasmak mumkun ama tavsiye edilmez
+        //static variable lara class ismi kullanarak ulasilmalidir
+        //
+        /*
+       Static keyword nedir?
+        1)CLASSA baglanmis class elemanlaridir
+        2)butun objectlerin ortak elemanidir
+        3)staticler uzerinde yapilan butun degisiklikleri objectler gorur ve etkilenir
+        4)Static class elemanlarina class uzerinden ulasilir
+
+         */
 
     }
 }
