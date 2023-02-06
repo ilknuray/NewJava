@@ -14,7 +14,7 @@ package day24statickeyworencapsulation;
    *"set" methodlar olusturarakgizledigimiz data yi degistirebiliriz(setter)
     */
 //variable in data type ile get methodunun in return type ayni olmalidir
-
+//get methodlari isimlendirirken get+variable name koyariz ancak variable in data type i boolean ise is+datatype yapariz
 public class Student {
 
    public String sdtName="Tom Hanks";//Her data nin gizlenmesine gerek yoktur
