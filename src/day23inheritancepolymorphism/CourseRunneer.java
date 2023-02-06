@@ -11,6 +11,10 @@ public class CourseRunneer {
          6)child classtaki override edilen method un access modifieri parent classtaki methodun access modifieri ile ayni yada daha genis olmalidir
          cocuk babayi sinirlandiramaz ancak baba cocugu sinirlandirabilir
          default methodlar ayni package icindeyse override edilebiirler farkli package icinde override edilemezler
+           Parebt classa koydugumuz methodlar genel metodlardir butun child classlara uyacak sekilde dizayn edilmislerdir.
+           Ancak bazi child classlar ozellestirmek ister bu methodu o yuzden override yapilir
+         7)Parent classataki methodun return type i void ise return type ddegistirilemez
+         8)reurn type i primitive ise return type i degistirilemz
 
          */
 
