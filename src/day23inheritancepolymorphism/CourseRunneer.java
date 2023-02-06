@@ -31,5 +31,12 @@ public class CourseRunneer {
          */
         //parent classtaki override edilen methoda overridden denir
 
+        /*
+        =>> final keyword nedir?
+        1)variablelarla kulanilabilir
+        2)methodlarla kullanilabilir
+        3)classlarda kullanilabilir
+         */
+
     }
 }
