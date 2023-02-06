@@ -24,6 +24,7 @@ public class CarRunner {
         2)butun objectlerin ortak elemanidir
         3)staticler uzerinde yapilan butun degisiklikleri objectler gorur ve etkilenir
         4)Static class elemanlarina class uzerinden ulasilir
+        Staticler butun objectleri etkiledigi icin override edilemez cunku override etmenin amaci alip degistirmektir
 
          */
 
