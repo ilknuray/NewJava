@@ -9,17 +9,24 @@ public class Exeption01 {
     java cozemzdigi sorunla karsilasinca calismayi durdurur ve exception atar
      */
     public static void main(String[] args) {
-        divide(6,2);
-        divide(0,2);
-        divide(6,0);//Matematikte bir sayi 0 ile bolunemez
+        divide(6, 2);
+        divide(0, 2);
+        divide(6, 0);//Matematikte bir sayi 0 ile bolunemez
+        divide2(5, 0);
     }
-        public static void divide(int a,int b){
-        if(b==0){
+
+    public static void divide(int a, int b) {
+        //1.yol
+        if (b == 0) {
             System.out.println("bir syai 0 ile bolunemez");
-        }else {
+        } else {
             System.out.println("a/b");
         }
 
-        }
+    }
+
+    public static void divide2(int a, int b) {
+        System.out.println(a / b);
+    }
 
 }
