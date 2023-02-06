@@ -23,5 +23,13 @@ public class CourseRunneer {
         ornegin integer ve short arasi degisim yapilamaz cunku aralarinda parent child iliskisi bulunmuyor
          */
 
+
+        /*
+        NOTE:Child taki methodun return typeindan parenttaki methodun return type ina gidisde is a olmali
+        parenttan childe gelirken de has a iliskisi vardir
+        Aralarinda is a yada has a iliskisi olan data type lara covariant denir
+         */
+        //parent classtaki override edilen methoda overridden denir
+
     }
 }
