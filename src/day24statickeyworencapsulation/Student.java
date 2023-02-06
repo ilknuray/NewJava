@@ -35,4 +35,15 @@ public class Student {
       return retired;
    }
 
+   public void setId(String id) {
+      this.id = id;
+   }
+
+   public void setGpa(double gpa) {
+      this.gpa = gpa;
+   }
+
+   public void setRetired(boolean retired) {
+      this.retired = retired;
+   }
 }
