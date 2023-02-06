@@ -19,6 +19,6 @@ public class Cat extends Mammal{
 
     @Override
     public void drink() {
-        System.out.println("kedilr yer");
+        System.out.println("kedilr yer");//override anotation i kullanarak java nin yaptigimiz override i kontrol etmesini saglariz
     }
 }
