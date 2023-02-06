@@ -34,8 +34,19 @@ public class CourseRunneer {
         /*
         =>> final keyword nedir?
         1)variablelarla kulanilabilir
+        public final int age=12;
+        bir kere deger atadiktan sonra bir daha degistiremeyiz.buna final variable denir
+        Final variable lara deger atamak zorundayiz yoksa hata verir
+
+
         2)methodlarla kullanilabilir
+        public final int add(){}
+        bir method olusturulurken final olarak olusturulmussa o body degistirilemez
+        final methodlar override edilemezler.cunku overriding te method body degidtirilir final method body degistirilmesine musaade etmez
+
+
         3)classlarda kullanilabilir
+
          */
 
     }
