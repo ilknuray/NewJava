@@ -26,7 +26,12 @@ public class Exeption01 {
     }
 
     public static void divide2(int a, int b) {
-        System.out.println(a / b);
+        try {
+            System.out.println(a / b);
+        }catch (ArithmeticException e){
+
+        }
+
     }
 
 }
