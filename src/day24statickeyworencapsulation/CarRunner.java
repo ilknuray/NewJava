@@ -13,5 +13,8 @@ public class CarRunner {
         //staticlerde yapilan degisiklik herseyi etkiler objede yapilan degisiklik saddece o objeyi etkiler
         System.out.println(car2.counter);
         System.out.println(car2.price);
+
+        //her new keywordu bir object demektir
+
     }
 }
