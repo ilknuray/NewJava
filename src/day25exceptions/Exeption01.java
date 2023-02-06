@@ -20,15 +20,15 @@ public class Exeption01 {
         if (b == 0) {
             System.out.println("bir syai 0 ile bolunemez");
         } else {
-            System.out.println("a/b");
+            System.out.println(a / b);
         }
 
     }
 
     public static void divide2(int a, int b) {
         try {
-            System.out.println(a / b);
-        }catch (ArithmeticException e){
+            System.out.println(a/b);
+        } catch (ArithmeticException e) {
 
         }
 
