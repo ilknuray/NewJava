@@ -10,7 +10,8 @@ public class CarRunner {
         System.out.println(car1.price);
         //static variable lar classa baglidir static olmayanlar ise objeye baglidir
         //yeni object olusturulunca hepsi 0lanir static olanlar haric
-
-
+        //staticlerde yapilan degisiklik herseyi etkiler objede yapilan degisiklik saddece o objeyi etkiler
+        System.out.println(car2.counter);
+        System.out.println(car2.price);
     }
 }
