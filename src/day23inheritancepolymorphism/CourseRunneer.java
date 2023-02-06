@@ -21,6 +21,15 @@ public class CourseRunneer {
          child classtaki return type parent classtakinden buyuk olamaz
         NOTE:Aralarinda parent child iliskisi olmayan classlar override ile return type degisiminde bulunamazlar
         ornegin integer ve short arasi degisim yapilamaz cunku aralarinda parent child iliskisi bulunmuyor
+        11)polymorphism =overloading +overriding tir yani coklu yapi demektir
+        NOTE:polimorhism nedir diye sorarlarsa overloading ve overridingi anlatmamiz gerekiyor
+        12)overloading ve overriding arasindaki farklar nelerdir?
+        *overloading icin "inheritance gerekmez anack overriding ici gereklidir
+        *Private methodlar overload eilebilir ancak override edilemezler
+        *final methodlar overload edilebilir ancak override edilemezler
+        *overloading statik polmorphism olarak overriding dinamik polymorphism olarak adlandirilir
+        Cunku static methodlar overload edilebilir;override edilemezler
+        *overloadingteki method signature degisir ancak overriding de degismez
          */
 
 
