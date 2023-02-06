@@ -15,6 +15,10 @@ public class CourseRunneer {
            Ancak bazi child classlar ozellestirmek ister bu methodu o yuzden override yapilir
          7)Parent classataki methodun return type i void ise return type ddegistirilemez
          8)reurn type i primitive ise return type i degistirilemz
+         9)parent classtaki methodun return type i Wrapper class ise return type degistirilemez
+         10)Parent classdaki methodun return type i parent class ise return type child lardan biri olabilir
+         child taki return type parenttakinin return type olabilir ama tersi mumkun degildir kapsayici olan ustte olmali
+         child classtaki return type parent classtakinden buyuk olamaz
 
          */
 
