@@ -16,4 +16,9 @@ public class Cat extends Mammal{
          6)super() kodu Parent classtan constructor cagirmaya yarar
          */
     }
+
+    @Override
+    public void drink() {
+        System.out.println("kedilr yer");
+    }
 }
