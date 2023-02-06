@@ -11,10 +11,15 @@ public class Exeption01 {
     public static void main(String[] args) {
         divide(6,2);
         divide(0,2);
-        divide(6,0);
+        divide(6,0);//Matematikte bir sayi 0 ile bolunemez
     }
         public static void divide(int a,int b){
-            System.out.println(a/b);
+        if(b==0){
+            System.out.println("bir syai 0 ile bolunemez");
+        }else {
+            System.out.println("a/b");
+        }
+
         }
 
 }
