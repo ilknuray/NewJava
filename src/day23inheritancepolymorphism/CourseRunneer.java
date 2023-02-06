@@ -46,6 +46,9 @@ public class CourseRunneer {
 
 
         3)classlarda kullanilabilir
+        bir classi final yaparsak o classi kisirlastirmis oluiruz
+        bir class final ise o classa extends edilemez
+        final class child olabilir baska classi extends edebilir
 
          */
 
