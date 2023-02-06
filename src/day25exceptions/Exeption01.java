@@ -29,8 +29,10 @@ public class Exeption01 {
         try {
             System.out.println(a/b);
         } catch (ArithmeticException e) {
+            System.out.println("Bolme isleminde bir problem olustu");
 
         }
+        //try kisminda duzeltmzmi yapiyorum,catch icine exceptionumu yaziyorum,catch odysi icine ise mesajimi yaziyorum
 
     }
 
