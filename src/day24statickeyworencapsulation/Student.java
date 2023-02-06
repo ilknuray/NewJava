@@ -13,11 +13,26 @@ package day24statickeyworencapsulation;
    =>Datayi gizledikten sonra baska classlardan degistirmek istersem ne yaparim
    *"set" methodlar olusturarakgizledigimiz data yi degistirebiliriz(setter)
     */
+//variable in data type ile get methodunun in return type ayni olmalidir
+
 public class Student {
 
-   private String sdtName="Tom Hanks";
+   public String sdtName="Tom Hanks";//Her data nin gizlenmesine gerek yoktur
    private String id="ertyukjh";
    private double gpa=.8;
    private boolean retired=false;
+
+
+   public String getId() {
+      return id;
+   }
+
+   public double getGpa() {
+      return gpa;
+   }
+
+   public boolean isRetired() {
+      return retired;
+   }
 
 }
