@@ -7,6 +7,11 @@ public class CourseRunneer {
          2)override yapilirken ASLA method signature degistirilmez
          3)override yaparken inheritance yapilmak zorundadir cunku override child clasta yapilir inheritance olmayan yerde override olmaz
          4)override yapilirken access modifierlar farkli kurallara gore farklilasabilirler.
+         5)private methodlar override edilemezler
+         6)child classtaki override edilen method un access modifieri parent classtaki methodun access modifieri ile ayni yada daha genis olmalidir
+         cocuk babayi sinirlandiramaz ancak baba cocugu sinirlandirabilir
+         default methodlar ayni package icindeyse override edilebiirler farkli package icinde override edilemezler
+
          */
 
     }
