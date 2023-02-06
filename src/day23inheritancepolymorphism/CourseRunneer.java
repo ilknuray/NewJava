@@ -19,7 +19,8 @@ public class CourseRunneer {
          10)Parent classdaki methodun return type i parent class ise return type child lardan biri olabilir
          child taki return type parenttakinin return type olabilir ama tersi mumkun degildir kapsayici olan ustte olmali
          child classtaki return type parent classtakinden buyuk olamaz
-
+        NOTE:Aralarinda parent child iliskisi olmayan classlar override ile return type degisiminde bulunamazlar
+        ornegin integer ve short arasi degisim yapilamaz cunku aralarinda parent child iliskisi bulunmuyor
          */
 
     }
