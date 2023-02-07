@@ -8,7 +8,7 @@ public class Exceptions01 {
         int result = convertStringToInteger(str);
         System.out.println(result + 5);
 
-        String st = "1a3";
+        String st = "1a3";//NumberFormatException==>icinde rakamdan farkli deger olan biir stringi int e cevirmek istersek bu hatayi aliriz
         int sonuc = convertStringToInteger(st);
         System.out.println(sonuc+10);
 
@@ -18,6 +18,7 @@ public class Exceptions01 {
         int i=0;
         try {
             i= Integer.valueOf(str);
+            System.out.println("Burasi try bolumu");
         } catch (NumberFormatException e) {
             System.out.println("rakam yazmalisin");
         }
