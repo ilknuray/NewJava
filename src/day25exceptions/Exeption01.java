@@ -29,12 +29,16 @@ public class Exeption01 {
         //2.yOL try catch ile exception u handle etmek gereklidir
         try {
             System.out.println(a/b);
+            System.out.println("hi exception");
         } catch (ArithmeticException e) {
             System.out.println("Bolme isleminde bir problem olustu");
 
         }
         //try kisminda duzeltmzmi yapiyorum,catch icine exceptionumu yaziyorum,catch odysi icine ise mesajimi yaziyorum
         /*
+        java matematile ile ilgili karsilasilmasi beklenen tum hatalari ArimeticException classina koymustur.
+        matematiktekitum hatalari bilmek zorunda degiliz.
+
 
          */
 
