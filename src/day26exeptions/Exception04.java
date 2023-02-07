@@ -17,6 +17,11 @@ public class Exception04 {
         /*IKI cesit exception turu vardir:
         1)RTE:buna unchecked exception da denir.Cunku kodu yazarke degil calistirdiktan sonra kontrol eder ve hatayi bize bildirir
         2)CTE:buna da checked exception da denir cunku calismadan once daha kd yazma esnasinda bize bildirir.
+
+        Method icinde neden exception olustururlur
+        Cunku methodun yapicilari o app te kural olusturur mesela yas negatif olmasin
+        *gunluk hayattta yasak ama java icin yasak olmayan seyler mesela yasin - olmasi bu turlu durumlarda da exception atamaliyiz
+        yada belirlenen kurallardan farkli birsey yapimasini engellemek icin yapilir
          */
 
     }
