@@ -33,6 +33,7 @@ public class Exeption01 {
         } catch (ArithmeticException e) {
             System.out.println("Bolme isleminde bir problem olustu==>"+e.getMessage());
            e.printStackTrace();
+           System.err.println("hatali bolme islemi");
 
         }
         //try kisminda duzeltmzmi yapiyorum,catch icine exceptionumu yaziyorum,catch odysi icine ise mesajimi yaziyorum
