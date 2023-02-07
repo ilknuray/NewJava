@@ -31,16 +31,16 @@ public class Exeption01 {
             System.out.println(a/b);
             System.out.println("hi exception");
         } catch (ArithmeticException e) {
-            System.out.println("Bolme isleminde bir problem olustu");
+            System.out.println("Bolme isleminde bir problem olustu==>"+e.getMessage());
+           e.printStackTrace();
 
         }
         //try kisminda duzeltmzmi yapiyorum,catch icine exceptionumu yaziyorum,catch odysi icine ise mesajimi yaziyorum
         /*
         java matematile ile ilgili karsilasilmasi beklenen tum hatalari ArimeticException classina koymustur.
         matematiktekitum hatalari bilmek zorunda degiliz.
-
-
          */
+
 
     }
 
