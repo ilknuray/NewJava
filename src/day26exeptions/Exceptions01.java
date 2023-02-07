@@ -10,7 +10,7 @@ public class Exceptions01 {
 
         String st = "1a3";
         int sonuc = convertStringToInteger(st);
-        System.out.println(sonuc);
+        System.out.println(sonuc+10);
 
     }
 
