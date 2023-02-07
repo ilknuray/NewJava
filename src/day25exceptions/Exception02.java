@@ -13,6 +13,7 @@ public class Exception02 {
             System.out.println(arr[idx]);
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println("Index asildi ==>"+e.getMessage());
+            e.printStackTrace();
         }
 
     }
