@@ -26,6 +26,7 @@ public class Exeption01 {
     }
 
     public static void divide2(int a, int b) {
+        //2.yOL try catch ile exception u handle etmek gereklidir
         try {
             System.out.println(a/b);
         } catch (ArithmeticException e) {
@@ -33,6 +34,9 @@ public class Exeption01 {
 
         }
         //try kisminda duzeltmzmi yapiyorum,catch icine exceptionumu yaziyorum,catch odysi icine ise mesajimi yaziyorum
+        /*
+
+         */
 
     }
 
