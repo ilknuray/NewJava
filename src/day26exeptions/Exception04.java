@@ -1,7 +1,6 @@
 package day26exeptions;
 
-import java.util.IllegalFormatCodePointException;
-import java.util.Scanner;
+
 
 public class Exception04 {
     public static void main(String[] args) {
@@ -15,6 +14,10 @@ public class Exception04 {
             throw  new IllegalArgumentException("Yas negatif olamaz");
         }
         System.out.println(a);
+        /*IKI cesit exception turu vardir:
+        1)RTE:buna unchecked exception da denir.Cunku kodu yazarke degil calistirdiktan sonra kontrol eder ve hatayi bize bildirir
+        2)CTE:buna da checked exception da denir cunku calismadan once daha kd yazma esnasinda bize bildirir.
+         */
 
     }
 }
