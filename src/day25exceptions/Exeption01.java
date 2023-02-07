@@ -42,6 +42,21 @@ public class Exeption01 {
         matematiktekitum hatalari bilmek zorunda degiliz.
          */
 
+        /*
+        1)exception kodlarimizi calistirirken meydana gelen beklemedik hatalardir
+        2)Exceptionlar ile calismanin iki yolu vardir
+        *try catch block kullanma
+        **throw exceptin kullanarak calismayi durdurma
+        3)exceptioni handle etmezszk java calismayi durdurur
+        4)try-catch kullanirken try kodunu bir yada birden fazla catch ile birlikte kullanabiliriz
+        5)try ,cacth ifadesi olmadan kullanilamaz CTE OLUR
+        6)get.message tenik mesaj verir
+        e.printStackTrace();==>hatayi detayli gosterir
+        System.err.println=>renkli yazar
+        7)try icinde ki kod atasiz calisirsa catch block devreye girmez
+
+         */
+
 
     }
 
