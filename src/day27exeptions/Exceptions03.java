@@ -9,6 +9,7 @@ public class Exceptions03 {
     4)Custom exceptionlar da"RTE" yada "CTE" olabilir
     5)custom rte uretmek icin extedns rte deriz
     6)custom cte uretmek icin extends Exception deriz
+    urettigim exceptionda eger message vermekistersem constructor olustururum ve super keywordu ile parents classa ulasirim
 
 
 
