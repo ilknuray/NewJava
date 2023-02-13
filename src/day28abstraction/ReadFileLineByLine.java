@@ -12,6 +12,8 @@ public class ReadFileLineByLine {
     2)throw dan sonra object olusturulur,throws tan sonra ise exception classin ismi yazilir
     3)throw methodun icinde istedigimiz yerde exception uretmek  icin kullanilir,throws ise var olan checked exceptioni atmak icin kullanilir
     4)throw dan sadece bir tane exception olabilir,throwsdan sonra birden fazla exception olabilir
+
+    rte lerde throws kullanilimaz cte lerde kullanmaak zorundayim
      */
     public static void main(String[] args) {
         readFile();
