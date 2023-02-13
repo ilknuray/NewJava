@@ -36,6 +36,11 @@ public class Exceptions02 {
 
         IOException==>"Input Output Exception" demektir.
 
+        4)gordugumuz gibi bu exceptionlar run butonuna basmadan ortaya cikti bu tarz exceptionlara CTE denir.
+        BUtarz exceptionlara checked exceptionda denir
+
+        CTE ler kesinlikle halledilmelidir(Exception Handiling)
+
          */
 
     }
