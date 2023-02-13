@@ -22,6 +22,8 @@ AWS-->amazon web service database ile isim bitince connectioni kesmem gereklidir
         }catch (ArithmeticException e){
             System.out.println("herhangi bir sayi sifir ile bolunemez");
 
+        }finally {
+            System.out.println("Dtabase ile connection kesildi");
         }
        return result;
     }
