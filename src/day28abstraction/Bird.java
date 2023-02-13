@@ -1,4 +1,5 @@
 package day28abstraction;
 
-public class Bird extends Animal {
+public abstract class Bird extends Animal {
+
 }

@@ -5,6 +5,9 @@ public abstract class Animal {
     // bodysi olmayan methodlara abstract method denir
     //bir methodu abstract method kullanmak icin method body i sil,abstract keywordu kullan,ve bulundugu classi abstract class olarak belirle
     //abstract classlarda hem abstract hemde abstract olmayan metholar kullanilabilir(concrate method)
+    //abstract classin butun methodlarini childlari kullanmak zorundadir
+    //bir method parent classda abstract method ise child method onu override edip kullanmalidir bunun icin herhangi
+    // bir methodu child clasta zorunlu hale getirmek istiyorsak tum abstract methodlari override etmeliyiz
     public abstract void eat();
 
     public abstract void hareketEt();
