@@ -1,6 +1,18 @@
 package day27exeptions;
 
 public class Exceptions03 {
+
+    /*
+    1)Java exceptionlar olusturarak devoloperlarin java kurallarina uymalarini temin etmistir
+    2)Biz de app uretirken kendi exceptionlarimizi ureterek diger devoloperlarin bizim kurallarimiza uymalarini temin edebiliriz
+    3)Java nin degil bizim urettigimiz exceptionlara "Custom exception"denir
+    4)Custom exceptionlar da"RTE" yada "CTE" olabilir
+    5)custom rte uretmek icin extedns rte deriz
+    6)custom cte uretmek icin extends Exception deriz
+
+
+
+     */
     public static void main(String[] args) throws IllegalGradeException {
 
         IllegalGradeException ige = new IllegalGradeException("abc");
