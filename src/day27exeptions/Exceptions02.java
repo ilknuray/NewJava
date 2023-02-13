@@ -12,7 +12,10 @@ public class Exceptions02 {
     public static void readTheTextFromTheFile() throws FileNotFoundException {
 
         FileInputStream fis = new FileInputStream("src/day27exeptions/File1.txt");//adres yanlis yada dosya bos olabilir diye java bizi ikaz eder CTE verir.
-
+        int k=0;
+        while ((k= fis.read())!=-1){
+            System.out.println((char)k);
+        }
 
     }
 }
