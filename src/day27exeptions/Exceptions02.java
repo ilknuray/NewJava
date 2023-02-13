@@ -8,6 +8,8 @@ public class Exceptions02 {
     public static void main(String[] args) throws IOException {
         readTheTextFromTheFile();
 
+        readTheText();
+
     }
 
     //Bir text file daki texti okuyan kodu yaziniz
@@ -42,6 +44,22 @@ public class Exceptions02 {
         CTE ler kesinlikle halledilmelidir(Exception Handiling)
 
          */
+
+
+    }
+    //2.Yol
+    public static void readTheText(){
+        try {
+            FileInputStream fis=new FileInputStream("src/day27exeptions/File1.txt");
+            int k = 0;
+            while ((k = fis.read()) != -1) {
+                System.out.print((char) k);
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("Dosyanin adresi veya varligi ile ilgili bir problem var");
+        } catch (IOException e) {
+            System.out.println("Dosyada okunamayan bir karakter var");
+        }
 
     }
 }
