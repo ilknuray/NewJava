@@ -30,9 +30,12 @@ public class Exceptions02 {
         Java bir endiseye kapildi
         *Ya okumasi gerekne karakterler javanin bilmedigi karakterlerse Biz method isminden sonra throws IOException yazarak exception at dedik
 
-        3)Method isminden sonra throws ioexceptin yazarsniz java throws FilNotFoundException i siler.Cunku IOException FilNotFoundException i
-        kapsar.IOException FilNotFoundException in parentidir.onun yaptigi herseyi yapabilir o yuzden IOException varken  FilNotFoundException a
+        3)Method isminden sonra throws ioexceptin yazarsniz java throws FileNotFoundException i siler.Cunku IOException FileNotFoundException i
+        kapsar.IOException FilNotFoundException in parentidir.onun yaptigi herseyi yapabilir o yuzden IOException varken  FileNotFoundException a
         ihtiyac yoktur.
+
+        IOException==>"Input Output Exception" demektir.
+
          */
 
     }
