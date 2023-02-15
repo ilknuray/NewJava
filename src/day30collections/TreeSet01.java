@@ -51,6 +51,10 @@ public class TreeSet01 {
         *elemanlari ekledikten sonra hashset i treesete ceviririm siralamada ise treeseti kullanirim
          */
 
+        //tekrarasiz elemanlari natural order da siralamak icin tree set kullanmak mantiklidir ancak
+        //treesetler cok yavas calisir bu yuzden ekleme islemini yapmak icin hashmap kullanir siralamak icin de
+        //treesete cevirip o sekilde kullanirim
+
 
 
 
