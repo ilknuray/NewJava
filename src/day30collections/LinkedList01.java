@@ -20,5 +20,9 @@ public class LinkedList01 {
         String ilk=myList.peek();
         System.out.println("ilk = " + ilk);
 
+       String first= isimler.poll();//ilk elemani sile bize verir ancak bssa hatafirlatmaz null dondurur pop ile arasidaki fark budur
+        System.out.println("first = " + first);
+        System.out.println("isimler3 = " + isimler);
+
     }
 }
