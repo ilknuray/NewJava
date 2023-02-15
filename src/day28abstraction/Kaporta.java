@@ -1,4 +1,4 @@
 package day28abstraction;
 
-public class Accort {
+public interface Kaporta {
 }

@@ -1,4 +1,4 @@
 package day28abstraction;
 
-public class Honda {
+public interface Klima {
 }
