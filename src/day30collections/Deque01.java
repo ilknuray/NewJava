@@ -9,7 +9,7 @@ public class Deque01 {
         double ended queue demaktir.yani iki uclu queue demektir
 
          */
-        Deque<String>mobilyaKamyonu=new LinkedList<>();
+        Deque<String> mobilyaKamyonu = new LinkedList<>();
         mobilyaKamyonu.add("yatak");
         mobilyaKamyonu.add("kanape");
         mobilyaKamyonu.add("ayna");
@@ -18,6 +18,12 @@ public class Deque01 {
         mobilyaKamyonu.add("koltuk");
         System.out.println("mobilyaKamyonu = " + mobilyaKamyonu);
         //deque sadece linkedlistin constructorini kullanir
+        /*
+        methodlarda genellikle iki ucludur.
+         */
+
+        mobilyaKamyonu.push("buzdolabi");//addfirst ile aynidir ilk siraya ekler yazilani.kapasiteye bakar boslik yoksa hata verir
+        System.out.println(mobilyaKamyonu);
 
 
     }
