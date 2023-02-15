@@ -19,5 +19,15 @@ public class Hashset01 {
         System.out.println(emails);//ayni elemani eklersek hata vermez ayni elemani olan elmanin ustune yazdigi icin tekra gormeyiz.override yapar
         emails.add(null);
         System.out.println(emails);
+
+        /*
+        hashsetlerf index kullanmazlar cunku siralama rastgele yapildigi icin index mantikli olmaz
+        siralamaya onem vermedigi icin cok hizli calisir
+         hashsetler;
+         1)tekrarsiz elemanlarda
+         2)siralama onemli degilse
+         3)hiz cok onemliyse
+         4)index kullanmazlar
+         */
     }
 }
