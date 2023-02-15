@@ -33,4 +33,12 @@ public interface Motor extends Vehicle {
 
      */
 
+    /*
+    SORU:oop language prensipleri nelerdir?
+    1)inheritance
+    2)Encapsulation
+    3)poliymorphism
+    4)Abstraction
+     */
+
 }
