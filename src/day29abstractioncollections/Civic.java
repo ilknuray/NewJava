@@ -1,4 +1,5 @@
 package day29abstractioncollections;
 
-public class Civic {
+public class Civic implements Ac,Motor{
+
 }
