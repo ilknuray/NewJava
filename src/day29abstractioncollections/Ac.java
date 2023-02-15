@@ -6,4 +6,5 @@ public interface Ac {
     int price = 3000;
 
     double agirlik=35.5;
+
 }
