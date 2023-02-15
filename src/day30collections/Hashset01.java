@@ -17,5 +17,7 @@ public class Hashset01 {
         System.out.println("emails = " + emails);
         emails.add("mango");
         System.out.println(emails);//ayni elemani eklersek hata vermez ayni elemani olan elmanin ustune yazdigi icin tekra gormeyiz.override yapar
+        emails.add(null);
+        System.out.println(emails);
     }
 }
