@@ -24,5 +24,14 @@ public class LinkedList01 {
         System.out.println("first = " + first);
         System.out.println("isimler3 = " + isimler);
 
+        //EX1: a ile baslayan tum isimleri "*****" e ceviriniz
+
+        for (String w:isimler) {
+            if (w.startsWith("a")) {
+                isimler.set(isimler.indexOf(w), "*****");
+            }
+        }
+        System.out.println("isimler2 = " + isimler);
+
     }
 }
