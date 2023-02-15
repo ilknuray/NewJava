@@ -1,10 +1,12 @@
 package day29abstractioncollections;
 
-public class LinkedList01 {
-/*
-arraylist==>index kullanir bunun dezavantajlari vardir eleman eklesemde silsemde butun sistem bozulur cunku indexler degisir
+import java.util.LinkedList;
 
- */
+public class LinkedList01 {
+    /*
+    arraylist==>index kullanir bunun dezavantajlari vardir eleman eklesemde silsemde butun sistem bozulur cunku indexler degisir
+
+     */
     /*
     LINKED LIST ELEMAN SILME VE EKLEME DE COK ETKILIDIR BU YUZDEN ELEMAN SILME VE EKLEME YAPACAGINIZ DURUMLARDA LINKD LIST KULANMALISINIZ
     ornegin:muze application i gibi giren cikan oluyor surekli.eger u sekilde yapmazsak donar
@@ -21,6 +23,18 @@ arraylist==>index kullanir bunun dezavantajlari vardir eleman eklesemde silsemde
 
 
      */
+    public static void main(String[] args) {
+        LinkedList<String>visitors=new LinkedList<>();
+        visitors.add("Tom");
+        visitors.add("Hanks");
+        visitors.add("Tom HANKS");
+        visitors.add("Brad");
+        visitors.add("Pitt");
+        visitors.add("Brat Pitt");
+        visitors.add(2,"Angelina Julie");
 
+        System.out.println("visitors = " + visitors);
+
+    }
 
 }
