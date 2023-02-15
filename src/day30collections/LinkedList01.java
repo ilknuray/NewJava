@@ -33,5 +33,17 @@ public class LinkedList01 {
         }
         System.out.println("isimler2 = " + isimler);
 
+        //EX2:listteki 4 harften cok harf iceren isimleri siliniz
+
+     //************* interview sorusu
+        for (int i = 0; i <isimler.size() ; i++) {
+            if (isimler.get(i).length()>4){
+                isimler.remove(isimler.get(i));
+                i--;
+            }
+
+        }
+        System.out.println("isimler4 = " + isimler);
+
     }
 }
