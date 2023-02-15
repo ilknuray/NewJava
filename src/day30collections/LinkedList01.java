@@ -17,7 +17,8 @@ public class LinkedList01 {
         System.out.println("ilkEleman2 = " + ilkEleman);
 
         LinkedList<String>myList= new LinkedList<>();
-
+        String ilk=myList.peek();
+        System.out.println("ilk = " + ilk);
 
     }
 }
