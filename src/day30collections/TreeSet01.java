@@ -38,8 +38,19 @@ public class TreeSet01 {
         myEmails.add("g@gmail.com");
         myEmails.add("h@gmail.com");
         System.out.println(myEmails);
+
+
+        TreeSet<String>sortedMyEmails=new TreeSet<>(myEmails);
+        System.out.println(sortedMyEmails);
         Long end2=LocalTime.now().toNanoOfDay();
         System.out.println(end2-end1);
+        /*
+        ****interviewwww
+        * 100 tekrarasiz datayi collectionslarda alfabetik siraya gore siralayin
+        * treeset kullanirim bu yavastir yavaslik problemini nasil cozersin elemanlari eklemede hashset i kullanirim
+        *elemanlari ekledikten sonra hashset i treesete ceviririm siralamada ise treeseti kullanirim
+         */
+
 
 
 
