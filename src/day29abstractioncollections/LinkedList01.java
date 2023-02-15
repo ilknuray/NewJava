@@ -49,6 +49,13 @@ public class LinkedList01 {
         visitors.removeLastOccurrence("Hanks");
         System.out.println("visitors = " + visitors);
 
+        String firstEleman=visitors.pop();//ilk elemani siler ve sildigi elemani bize geri verir.eger linked list bossa Nosuchelement ex atar
+        System.out.println("firstEleman = " + firstEleman);
+        System.out.println("visitors = " + visitors);
+
+        LinkedList<String> myList = new LinkedList<>();
+        String eleman=myList.pop();
+        System.out.println("eleman = " + eleman);
     }
 
 }
