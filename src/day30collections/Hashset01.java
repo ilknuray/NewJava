@@ -6,7 +6,7 @@ public class Hashset01 {
     public static void main(String[] args) {
     //birbirine benzemeyen data olusturmaya yarar.orneginuniversite ogrenci numarasi gibi bolum kodu+ogrencino+universite kodu+fakulte kodu
         /*
-        1)Hash bir tkniktir.birbirine benzemeyen kodlar uretir bunlar datayi unique yapar
+        1)Hash bir tekniktir.birbirine benzemeyen kodlar uretir bunlar datayi unique yapar
          */
         HashSet<String>emails=new HashSet<>();
         emails.add("apple");
