@@ -15,4 +15,5 @@ public abstract class Animal {
     public static void drink(){
         System.out.println("Animzl drinks");
     }
+    //ornegin browserlar navigat methodunu kulanmak zorundadir acak bunu abstract yaparim ve butun browserlar bunu kullanir
 }
