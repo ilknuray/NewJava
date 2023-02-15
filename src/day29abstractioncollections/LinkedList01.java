@@ -24,15 +24,29 @@ public class LinkedList01 {
 
      */
     public static void main(String[] args) {
-        LinkedList<String>visitors=new LinkedList<>();
+        LinkedList<String> visitors = new LinkedList<>();
         visitors.add("Tom");
         visitors.add("Hanks");
         visitors.add("Tom HANKS");
         visitors.add("Brad");
         visitors.add("Pitt");
         visitors.add("Brat Pitt");
-        visitors.add(2,"Angelina Julie");
+        visitors.add(2, "Angelina Julie");
+        visitors.add("Tom");
+        visitors.add("Hanks");
 
+        System.out.println("visitors = " + visitors);
+
+        visitors.addLast("Ajda Pekkan");
+        visitors.addFirst("Cuneyt Arkin");//linked listler ekleme ve silme de cok basarili oldugundan bircok ekleme ve silme methodu iceiriler
+        System.out.println("visitors = " + visitors);
+        visitors.removeLast();
+        visitors.removeFirst();
+        System.out.println("visitors = " + visitors);
+        System.out.println("visitors = " + visitors);
+        visitors.removeFirstOccurrence("Tom");
+        System.out.println("visitors = " + visitors);
+        visitors.removeLastOccurrence("Hanks");
         System.out.println("visitors = " + visitors);
 
     }
