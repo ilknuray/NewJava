@@ -6,6 +6,8 @@ public class LinkedHashSet01 {
     public static void main(String[] args) {
         /*
         linkedhash setler elemanlari ekleme sirasina gore yerlestirirler
+        Linked hashset elemanlari girilen siralamaya gore olusturdugu icin yavas calisir
+
          */
         LinkedHashSet<String>emails=new LinkedHashSet<>();
         emails.add("abc@gmail.com");
