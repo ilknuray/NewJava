@@ -1,5 +1,6 @@
 package day30collections;
 
+import java.time.LocalTime;
 import java.util.TreeSet;
 
 public class TreeSet01 {
@@ -12,6 +13,7 @@ public class TreeSet01 {
          */
 
         //EX:1 8 tane unique string elemani alfabetik sirada depolayiniz
+        Long start1=LocalTime.now().toNanoOfDay();
         TreeSet<String>emails=new TreeSet<>();
         emails.add("a@gmail.com");
         emails.add("b@gmail.com");
@@ -22,6 +24,11 @@ public class TreeSet01 {
         emails.add("g@gmail.com");
         emails.add("h@gmail.com");
         System.out.println("emails = " + emails);
+        Long end1= LocalTime.now().toNanoOfDay();
+        System.out.println(end1-start1);
+
+
+
 
     }
 }
