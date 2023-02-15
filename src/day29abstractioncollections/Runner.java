@@ -16,6 +16,8 @@ public class Runner {
          Note:interfacelerde constructor olmadigi icin interfacelerden obje olusturulamaz.
          abstract classlarda class olduklari icin constructor vardir ancak object olusturamazlar.
          java da interface ve abstract classlardan object olusurulamaz.
+
+         INterfaceler CLASS degildir
          */
 
     }
