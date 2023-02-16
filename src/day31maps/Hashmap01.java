@@ -67,26 +67,27 @@ public class Hashmap01 {
         }
         System.out.println(isim);
 
-        boolean sonuc=studentsAge.remove("Ajda",80);//key ve value olan entry set i siler ve size boolean return eder.
+        boolean sonuc = studentsAge.remove("Ajda", 80);//key ve value olan entry set i siler ve size boolean return eder.
         System.out.println("sonuc = " + sonuc);
 
-       Integer kisi= studentsAge.remove("Ali");
+        Integer kisi = studentsAge.remove("Ali");
         System.out.println("kisi = " + kisi);//verdigim key deki value u bana dondurur
 
-        studentsAge.getOrDefault("Brat",0);//key varsa var olan degeri verir yoksa benim yazdigim degeri verir
+        studentsAge.getOrDefault("Brat", 0);//key varsa var olan degeri verir yoksa benim yazdigim degeri verir
 
         //value null ise ekleme yapar value null degilse eklme yapmaz ve key yoksa olusturur ve ekleme yapar
-       Integer merve= studentsAge.putIfAbsent("Merve",200);
+        Integer merve = studentsAge.putIfAbsent("Merve", 200);
         System.out.println("merve = " + merve);
         System.out.println(studentsAge);
 
         //replace methodu value lari degistirmek icin kullanilir
-        studentsAge.replace("Merve",35);
+        studentsAge.replace("Merve", 35);
         System.out.println(studentsAge);
 
         //EX3:mapteki herbir entryi farkli satirda yazdirin
-       Set<Map.Entry<String,Integer>>altalta= studentsAge.entrySet();
-        for (Map.Entry<String,Integer> w:altalta) {
+        Set<Map.Entry<String, Integer>> altalta = studentsAge.entrySet();//bu sekilde ki bir yontemle hepsini altalta yazdiririm.
+
+        for (Map.Entry<String, Integer> w : altalta) {
             System.out.println(w);
 
         }
