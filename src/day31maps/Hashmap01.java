@@ -67,6 +67,9 @@ public class Hashmap01 {
         }
         System.out.println(isim);
 
+        boolean sonuc=studentsAge.remove("Ajda",80);//key ve value olan entry set i siler ve size boolean return eder.
+        System.out.println("sonuc = " + sonuc);
+
 
     }
 }
