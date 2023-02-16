@@ -1,8 +1,6 @@
 package day31maps;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Hashmap01 {
     /*
@@ -33,6 +31,10 @@ public class Hashmap01 {
         //sadece keyleri almak istiyorum nasil yaparim
         Set<String>keys=studentsAge.keySet();//key unique oldugu icin setin icine koyar cunku setlerde unique valueler kalir
         System.out.println(keys);
+
+        //Sadece value lari nasil alirim
+        Collection<Integer> values=studentsAge.values();
+        System.out.println(values);
 
 
 
