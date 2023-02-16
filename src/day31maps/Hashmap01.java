@@ -14,48 +14,58 @@ public class Hashmap01 {
     public static void main(String[] args) {
 
 
-        HashMap<String, Integer>studentsAge  = new HashMap<>();
-        studentsAge.put("Ali",13);
-        studentsAge.put("Tom",21);
-        studentsAge.put("Brad",12);
-        studentsAge.put("Ayse",24);
-        studentsAge.put("brad",33);
-        studentsAge.put("ajda",80);
-        studentsAge.put("Ali",15);//tekrar kullaninca hata vermez override yapar ustune yazar
-        studentsAge.put(null,66);
-        studentsAge.put(null,76);
-        studentsAge.put("ahmet",null);
-        studentsAge.put("sadri",null);//value olarak null tekrar tekrar kullanilabilir
+        HashMap<String, Integer> studentsAge = new HashMap<>();
+        studentsAge.put("Ali", 13);
+        studentsAge.put("Tom", 21);
+        studentsAge.put("Brad", 12);
+        studentsAge.put("Ayse", 24);
+        studentsAge.put("brad", 33);
+        studentsAge.put("Ajda", 80);
+        studentsAge.put("Ali", 15);//tekrar kullaninca hata vermez override yapar ustune yazar
+        studentsAge.put(null, 66);
+        studentsAge.put(null, 76);
+        studentsAge.put("Ahmet", null);
+        studentsAge.put("sadri", null);//value olarak null tekrar tekrar kullanilabilir
         System.out.println(studentsAge);
 
         //sadece keyleri almak istiyorum nasil yaparim
-        Set<String>keys=studentsAge.keySet();//key unique oldugu icin setin icine koyar cunku setlerde unique valueler kalir
+        Set<String> keys = studentsAge.keySet();//key unique oldugu icin setin icine koyar cunku setlerde unique valueler kalir
         System.out.println(keys);
 
         //Sadece value lari nasil alirim
-        Collection<Integer> values=studentsAge.values();
+        Collection<Integer> values = studentsAge.values();
         System.out.println(values);//en son guncellenmis halini verir.hashmaplerde siralama yoktur
 
         //belli bir keye ait value nasil alinir
-        Integer yas=studentsAge.get("Ayse");//verilen key e ait value u dondurur
-        System.out.println("yas : "+yas);
+        Integer yas = studentsAge.get("Ayse");//verilen key e ait value u dondurur
+        System.out.println("yas : " + yas);
 
         //EX1:tum integer yaslarin ortalamasini bulan kodu yaziniz
 
-        int ortalamaYas=0;
-        int count=0;
+        int ortalamaYas = 0;
+        int count = 0;
 
-        for (Integer w:values) {
-            if (w!=null){
-                ortalamaYas+=w;
+        for (Integer w : values) {
+            if (w != null) {
+                ortalamaYas += w;
                 count++;
 
             }
 
 
         }
-        System.out.println("Ortalama yas = "+(ortalamaYas/count));
+        System.out.println("Ortalama yas = " + (ortalamaYas / count));
 
+
+        //EX2:a ile baslamayan isimlerin icerdigi toplam karakter sayisini bulan kodu yaziniz.
+        Set<String> isimler = studentsAge.keySet();
+        int isim = 0;
+        for (String w : isimler) {
+            if (w != null && !w.startsWith("A")) {
+                isim += w.length();
+            }
+        }
+        System.out.println(isim);
 
 
     }
