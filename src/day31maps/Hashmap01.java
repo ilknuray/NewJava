@@ -34,7 +34,11 @@ public class Hashmap01 {
 
         //Sadece value lari nasil alirim
         Collection<Integer> values=studentsAge.values();
-        System.out.println(values);
+        System.out.println(values);//en son guncellenmis halini verir.hashmaplerde siralama yoktur
+
+        //belli bir keye ait value nasil alinir
+        Integer yas=studentsAge.get("Ayse");//verilen key e ait value u dondurur
+        System.out.println("yas : "+yas);
 
 
 
