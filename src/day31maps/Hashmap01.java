@@ -75,10 +75,13 @@ public class Hashmap01 {
 
         studentsAge.getOrDefault("Brat",0);//key varsa var olan degeri verir yoksa benim yazdigim degeri verir
 
-        //value null ise ekleme yapar value null degilse eklme yapmaz
+        //value null ise ekleme yapar value null degilse eklme yapmaz ve key yoksa olusturur ve ekleme yapar
        Integer merve= studentsAge.putIfAbsent("Merve",200);
         System.out.println("merve = " + merve);
         System.out.println(studentsAge);
 
+        //replace methodu value lari degistirmek icin kullanilir
+        studentsAge.replace("Merve",35);
+        System.out.println(studentsAge);
     }
 }
