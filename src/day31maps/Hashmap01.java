@@ -40,6 +40,22 @@ public class Hashmap01 {
         Integer yas=studentsAge.get("Ayse");//verilen key e ait value u dondurur
         System.out.println("yas : "+yas);
 
+        //EX1:tum integer yaslarin ortalamasini bulan kodu yaziniz
+
+        int ortalamaYas=0;
+        int count=0;
+
+        for (Integer w:values) {
+            if (w!=null){
+                ortalamaYas+=w;
+                count++;
+
+            }
+
+
+        }
+        System.out.println("Ortalama yas = "+(ortalamaYas/count));
+
 
 
     }
