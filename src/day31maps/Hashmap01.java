@@ -70,6 +70,15 @@ public class Hashmap01 {
         boolean sonuc=studentsAge.remove("Ajda",80);//key ve value olan entry set i siler ve size boolean return eder.
         System.out.println("sonuc = " + sonuc);
 
+       Integer kisi= studentsAge.remove("Ali");
+        System.out.println("kisi = " + kisi);//verdigim key deki value u bana dondurur
+
+        studentsAge.getOrDefault("Brat",0);//key varsa var olan degeri verir yoksa benim yazdigim degeri verir
+
+        //value null ise ekleme yapar value null degilse eklme yapmaz
+       Integer merve= studentsAge.putIfAbsent("Merve",200);
+        System.out.println("merve = " + merve);
+        System.out.println(studentsAge);
 
     }
 }
