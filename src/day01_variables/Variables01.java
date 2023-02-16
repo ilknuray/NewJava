@@ -13,7 +13,7 @@ public class Variables01 {
         //"=" assignment operator dur sagdaki degeri alip soldaki variable in icine atar
 
     /*
-    Jvada data type ler
+    Javada data type ler
 
     1)int tam sayilari alir 32bit kullanir
     2)short tam sayilar 16 bit kullanir

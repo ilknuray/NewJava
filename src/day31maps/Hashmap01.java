@@ -85,6 +85,8 @@ public class Hashmap01 {
         System.out.println(studentsAge);
 
         //EX3:mapteki herbir entryi farkli satirda yazdirin
+        //entryset methodu mapteki her elememanlari bir setin icine koyarak size verir
+        //methodlarin icine gelip ustune tikla ne verdigini nasil kullanildigini gor
         Set<Map.Entry<String, Integer>> altalta = studentsAge.entrySet();//bu sekilde ki bir yontemle hepsini altalta yazdiririm.
 
         for (Map.Entry<String, Integer> w : altalta) {
