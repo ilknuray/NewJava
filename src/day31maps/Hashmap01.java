@@ -83,5 +83,12 @@ public class Hashmap01 {
         //replace methodu value lari degistirmek icin kullanilir
         studentsAge.replace("Merve",35);
         System.out.println(studentsAge);
+
+        //EX3:mapteki herbir entryi farkli satirda yazdirin
+       Set<Map.Entry<String,Integer>>altalta= studentsAge.entrySet();
+        for (Map.Entry<String,Integer> w:altalta) {
+            System.out.println(w);
+
+        }
     }
 }
