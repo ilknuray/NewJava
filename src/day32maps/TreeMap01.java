@@ -23,6 +23,7 @@ public class TreeMap01 {
         System.out.println("map1 = " + map1);
         SortedMap<String,Double> map2=salaries.tailMap("Kevin",false);
         System.out.println("map2 = " + map2);//Yazdigim key haric geriye kalan keyleri siralayarak verir
+        //subMap=>belirledigim araliktaki valueleri dondurur
 
 
     }
