@@ -1,5 +1,6 @@
 package day32maps;
 
+import java.util.SortedMap;
 import java.util.TreeMap;
 
 public class TreeMap01 {
@@ -16,5 +17,10 @@ public class TreeMap01 {
         salaries.put("Jimmy",5000.00);
         salaries.put("Kevin",6000.00);
         System.out.println(salaries);
+
+        SortedMap<String,Double> map1=salaries.tailMap("Kevin");
+        //tailmap verilen keyden baslayarak sona kadar tum entryleri verir
+        System.out.println("map1 = " + map1);
+
     }
 }
