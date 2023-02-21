@@ -21,6 +21,9 @@ public class TreeMap01 {
         SortedMap<String,Double> map1=salaries.tailMap("Kevin");
         //tailmap verilen keyden baslayarak sona kadar tum entryleri verir
         System.out.println("map1 = " + map1);
+        SortedMap<String,Double> map2=salaries.tailMap("Kevin",false);
+        System.out.println("map2 = " + map2);//Yazdigim key haric geriye kalan keyleri siralayarak verir
+
 
     }
 }
