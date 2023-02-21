@@ -28,5 +28,7 @@ public class Haashtable02 {
         toString() methodu objectleri consolda detaylari iler birlikte gorebilmek icin konsolda olustururlur
         toString kullanmadan yazdirirsak objenin adresini goruruz
          */
+        String name=myStudnts.get("Math").name;
+        System.out.println("name = " + name);
     }
 }
