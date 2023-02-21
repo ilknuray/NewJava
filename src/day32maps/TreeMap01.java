@@ -24,7 +24,11 @@ public class TreeMap01 {
         SortedMap<String,Double> map2=salaries.tailMap("Kevin",false);
         System.out.println("map2 = " + map2);//Yazdigim key haric geriye kalan keyleri siralayarak verir
         //subMap=>belirledigim araliktaki valueleri dondurur
-
+  /*
+  Siralama istiyorsam treeMap
+  thread safe istiyorsam HashTable
+  hiz istiyorsam hashMap kullanirim
+   */
 
     }
 }
