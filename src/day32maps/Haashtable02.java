@@ -30,5 +30,7 @@ public class Haashtable02 {
          */
         String name=myStudnts.get("Math").name;
         System.out.println("name = " + name);
+        int age=myStudnts.get("Math").age;
+        System.out.println("age = " + age);
     }
 }
