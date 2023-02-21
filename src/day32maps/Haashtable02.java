@@ -24,5 +24,9 @@ public class Haashtable02 {
         Hashtable<String,Students>myStudnts=new Hashtable<>();
         myStudnts.put("Math",new Students("tom","tom@gmail.com",21,true));
         System.out.println("myStudnts = " + myStudnts);
+        /*
+        toString() methodu objectleri consolda detaylari iler birlikte gorebilmek icin konsolda olustururlur
+        toString kullanmadan yazdirirsak objenin adresini goruruz
+         */
     }
 }
