@@ -8,7 +8,9 @@ public class Haashtable02 {
         /*
         *hashtable bir maptir
         * **hashtable entrysetleri bir siralamaya tabi tutmaz
-        * **hashmapten yavastir,cunku hash table treadsafedir ve syncronzed dir.Bunu planlamak icin zaman harcar.
+        * **hashmapten yavastir,cunku hash tabletreadsafedir ve syncronzed dir.Bunu planlamak icin zaman harcar.
+        * Key null olamaz nullpointerexception atar.
+        * value null olamaz null pointerexception atar
         *
         *
          */
@@ -18,5 +20,6 @@ public class Haashtable02 {
         countryPopolation.put("Turkey",90000000);
         System.out.println(countryPopolation);
         countryPopolation.put(null,9000000);//Key null olamaz nullpointerexception atar.
+        countryPopolation.put("Fransa",null);//value null olamaz null pointerexception atar
     }
 }
