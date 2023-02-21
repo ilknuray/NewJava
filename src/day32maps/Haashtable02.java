@@ -19,7 +19,10 @@ public class Haashtable02 {
         countryPopolation.put("Germany",83000000);
         countryPopolation.put("Turkey",90000000);
         System.out.println(countryPopolation);
-        countryPopolation.put(null,9000000);//Key null olamaz nullpointerexception atar.
-        countryPopolation.put("Fransa",null);//value null olamaz null pointerexception atar
+        //countryPopolation.put(null,9000000);//Key null olamaz nullpointerexception atar.
+        //countryPopolation.put("Fransa",null);//value null olamaz null pointerexception atar
+        Hashtable<String,Students>myStudnts=new Hashtable<>();
+        myStudnts.put("Math",new Students("tom","tom@gmail.com",21,true));
+        System.out.println("myStudnts = " + myStudnts);
     }
 }
