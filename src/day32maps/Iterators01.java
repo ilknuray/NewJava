@@ -27,6 +27,8 @@ public class Iterators01 {
             //iterator genellikle while ile kullanilir
             String eleman=itr.next();
             itr.set(eleman+"!");
+            //hasnext methodu pointerdan sonra eleman varsa true degilse false verir next ise pointeri ir sonraki elemanin onune koyar ve atladigi elemani yazdirir
+
         }
         System.out.println(myList);
 
