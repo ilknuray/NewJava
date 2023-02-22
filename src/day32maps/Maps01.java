@@ -14,6 +14,15 @@ public class Maps01 {
         System.out.println(Arrays.toString(kelimeler));
 
         HashMap<String,Integer>gorunum=new HashMap<>();
+        for (String w:kelimeler) {
+            Integer gorunumSayisi= gorunum.get(w);
+            if (gorunumSayisi==null){
+                gorunum.put(w,1);
+            }else {
+                gorunum.put(w,gorunumSayisi+1);
+            }
+        }
+        System.out.println(gorunum);
 
     }
 }
