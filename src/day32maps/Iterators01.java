@@ -19,14 +19,15 @@ public class Iterators01 {
         }
         System.out.println(myList);
         //looplar kendi baslarina collectionlari update edemezler.bu yuzden java iteratorlari olusturdu.
-        //iteratolar collectionlari update etmek icin kullanilir.L
+        //iteratolar collectionlari update etmek icin kullanilir.
+        //iterator i 0 dan olusturmayiz.ELIMIZDEKI LISTTEN ITERATOR OLUSTURURUZ;hasnext ve next methodlari ile kullanabiliriz.
 
         ListIterator<String>itr= myList.listIterator();
         while (itr.hasNext()){
             String eleman=itr.next();
             itr.set(eleman+"!");
         }
-        System.out.println(itr);
+        System.out.println(myList);
 
 
     }
