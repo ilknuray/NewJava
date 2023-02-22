@@ -52,6 +52,11 @@ public class Iterators01 {
             String st=itr2.next();
             System.out.println(st);
         }
+        /*
+        ListIterator larda hasnext next previousNext previous ve remove methodlari vardir
+        Iteratorlarda hasnext next remove methodlari vardir
+
+         */
 
 
     }
