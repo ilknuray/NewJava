@@ -23,7 +23,8 @@ public class Iterators01 {
         //iterator i 0 dan olusturmayiz.ELIMIZDEKI LISTTEN ITERATOR OLUSTURURUZ;hasnext ve next methodlari ile kullanabiliriz.
 
         ListIterator<String>itr= myList.listIterator();
-        while (itr.hasNext()){
+        while (itr.hasNext()){//liste gider ve pointer i enbaasa koyar sonra diger elemanin onune pointeri koyar ve ustunden atladigi elemeni yazdirir
+            //iterator genellikle while ile kullanilir
             String eleman=itr.next();
             itr.set(eleman+"!");
         }
