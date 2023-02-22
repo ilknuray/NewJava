@@ -50,7 +50,7 @@ public class Iterators01 {
         Iterator<String>itr2=yourList.listIterator();
         while (itr2.hasNext()){
             String st=itr2.next();
-            System.out.println(st);
+            System.out.print(st+" ");
         }
         /*
         ListIterator larda hasnext next previousNext previous ve remove methodlari vardir
