@@ -1,6 +1,7 @@
 package day32maps;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -38,6 +39,19 @@ public class Iterators01 {
             itr.remove();//sildirir
         }
         System.out.println(myList);
+
+        List<String>yourList=new ArrayList<>();
+        yourList.add("A");
+        yourList.add("B");
+        yourList.add("C");
+        yourList.add("D");
+        yourList.add("E");
+
+        Iterator<String>itr2=yourList.listIterator();
+        while (itr2.hasNext()){
+            String st=itr2.next();
+            System.out.println(st);
+        }
 
 
     }
