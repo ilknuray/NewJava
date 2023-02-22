@@ -31,6 +31,7 @@ public class Iterators01 {
 
         }
         System.out.println(myList);
+
         //listteki tum elemanlari siliniz
         while (itr.hasPrevious()){
             itr.previous();
