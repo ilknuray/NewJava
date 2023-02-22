@@ -10,7 +10,7 @@ public class MethodCreations {
         Primitive data tiplerinde ise sadece deger vardir method yoktur
 
         2)Primitive data tipleri java tarafindan olusturulmustur
-        Non primitive data tipleri java da olusturmustur bizde olusturabiliriz her developer uretebilir
+        Non primitive data tiplerini ise  java da olusturmustur bizde olusturabiliriz her developer uretebilir
         sayisi sinirli degildir
 
         3)Primitive isimleri kucuk harfle baslar
