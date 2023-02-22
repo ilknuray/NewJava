@@ -1,7 +1,7 @@
 package day03dataCastingWrapperClass;
 
 public class TypeCasting01 {
-    /*type casting = bir numeric data tipini digerine cevirmktir
+    /*type casting = bir numeric data tipini digerine cevirmektir
     byte<short<int<long<double<float
 
     kucukten buyuge gidise-> auto widening=otomatik genisletme
