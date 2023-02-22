@@ -2,6 +2,7 @@ package day32maps;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class Iterators01 {
     public static void main(String[] args) {
@@ -19,6 +20,13 @@ public class Iterators01 {
         System.out.println(myList);
         //looplar kendi baslarina collectionlari update edemezler.bu yuzden java iteratorlari olusturdu.
         //iteratolar collectionlari update etmek icin kullanilir.L
+
+        ListIterator<String>itr= myList.listIterator();
+        while (itr.hasNext()){
+            String eleman=itr.next();
+            itr.set(eleman+"!");
+        }
+        System.out.println(itr);
 
 
     }
