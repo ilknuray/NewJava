@@ -22,10 +22,11 @@ public class WrapperClass01 {
        wrapper classlar non-primitive dir
          */
 
-        byte primitive = 12;//burada his method yoktur
+        byte primitive = 12;//burada hic method yoktur
 
 
         Byte wrapperByte = 12;//variable ismini yazip nokta koydugumuzda bir cok method goruruz
+
 
 
         //byte data tipinin en buyuk ve en kucuk degerlerini ekrana yazdiriniz
