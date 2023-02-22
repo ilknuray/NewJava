@@ -1,5 +1,7 @@
 package day32maps;
 
+import java.util.Arrays;
+
 public enum USstates {
 
     ALABAMA("alabama", "al"),
@@ -19,5 +21,9 @@ public enum USstates {
 
     public String getKisaltma() {
         return kisaltma;
+    }
+
+    public String getStateNameFromKisaltma(String kisaltma){
+      return   Arrays.stream(values()).filter(USstates->getKisaltma().equals(kisaltma)).findFirst().get().getStateName();
     }
 }
