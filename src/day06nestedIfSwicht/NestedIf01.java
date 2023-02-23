@@ -30,6 +30,20 @@ public class NestedIf01 {
          //2.YOL
         char ilkHarf=pass.charAt(0);
 
+
+
+
+
+
+
+
+
+
+             /*
+    Passwordn ilk harfi buyuk a ise 'A' ise gecerli password aksi halde gecersiz password
+    ilk harfi kucuk harf ise 'z' olursa gecerli pass aksi halde gecersiz pass
+     */
+
     }
     // equals charlar icin kullanilmaz sadece String icin gecerlidir
     //nested if kabul edilmez mumkunse kullanmamaliyiz cunku cok fazla zaman harcanir buna "TIME COMPLEXITY3 DENIR MUMKUNSE KULLANMAMALIYIZ
