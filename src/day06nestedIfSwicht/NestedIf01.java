@@ -44,6 +44,15 @@ public class NestedIf01 {
     ilk harfi kucuk harf ise 'z' olursa gecerli pass aksi halde gecersiz pass
      */
 
+
+        Scanner scann=new Scanner(System.in);
+        System.out.println("Lutfen sifrenizi giriniz");
+        char ilkHarfi=scann.next().charAt(0);
+        if (ilkHarfi=='A'||ilkHarfi=='z'){
+            System.out.println("gecerli sifre");
+        }
+
+
     }
     // equals charlar icin kullanilmaz sadece String icin gecerlidir
     //nested if kabul edilmez mumkunse kullanmamaliyiz cunku cok fazla zaman harcanir buna "TIME COMPLEXITY3 DENIR MUMKUNSE KULLANMAMALIYIZ
