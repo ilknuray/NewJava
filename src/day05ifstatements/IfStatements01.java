@@ -14,9 +14,7 @@ public class IfStatements01 {
         }else {
             System.out.println("Tek sayi");
         }
-        if (sayi%2!=0){
-            System.out.println("Cift sayi");
-        }
+
 
         //EX:Bir sayinin negatif pozitif veya notr oldugunu soyleyen kodu yaziniz
         System.out.println("bir sayi giriniz");
