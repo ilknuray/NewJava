@@ -23,6 +23,7 @@ public class StringManipulation01 {
         System.out.println(yeniHal);
 
 
+
         //EX:verilen stringteki tum hayvan isimlerini ekrana yazdiriniz
         // "ben kedi,esim tavuk,oglum sever inek"
 
