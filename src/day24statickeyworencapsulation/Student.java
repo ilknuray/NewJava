@@ -6,7 +6,7 @@ package day24statickeyworencapsulation;
    =>Nasi gizlersin
    *access modifieri private yaparak
 
-   =>adatayi gizledikten sonra baska classlardan okumak istedigimde ne yaparim
+   =>datayi gizledikten sonra baska classlardan okumak istedigimde ne yaparim
    *Kapsulleme sonrasi bazi ozel methodlarla ulasabilirim
    "get"methodlar olusturarak gizlenmis datalari okuyabilirim(getter)
 
