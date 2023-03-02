@@ -4,7 +4,7 @@ public class Ternary01 {
     public static void main(String[] args) {
         //EX:Bir sayinin pozif olup olmadigini ekrana yazdiran kodu yazdirin
 
-        int sayi = 15;
+        int sayi = 20;
 
         //1.YOL
         if (sayi > 0) {
