@@ -7,7 +7,8 @@ import java.util.TreeSet;
 public class TreeSet01 {
     public static void main(String[] args) {
         /*
-        Treeset tekrarsiz elemanlari alfabetik siraya yada kucukten buyuge dogru dizer5Natural order)
+        Treeset tekrarsiz elemanlari alfabetik siraya yada kucukten buyuge dogru dizer
+        (Natural order)
         Bu ciddi bir emek ister bu yuzden treeset cok yavas calisir
         gercekten bir siralama sartsa bunu kullaniriz
 
